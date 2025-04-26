@@ -1,0 +1,239 @@
+Categoría,Subcategoría,Tipo,Valor,Descripción,Contexto Adicional,Fuente
+Malware,GoRed,Hash MD5,6ea3feb1888ce02e3d0d2857b5ef71c4,GoRed (col),Primera versión identificada v0.0.1,Análisis PT
+Malware,GoRed,Hash SHA1,c5540ec2ec79a21f07b0d793cc36b024a0db64cc,GoRed (col),,Análisis PT
+Malware,GoRed,Hash SHA256,67b7a8fad28dcc40c0889e5c4e40aef9348441c64bba74bd6db885d88ce6d246,GoRed (col),,Análisis PT
+Malware,GoRed,Hash MD5,64db61efc8acf370b91110b6f93d4dce,GoRed (coll.exe),,Análisis PT
+Malware,GoRed,Hash SHA1,a81373d92d798418109552fb91d4c407d4c37a89,GoRed (coll.exe),,Análisis PT
+Malware,GoRed,Hash SHA256,f43c99ef85166774ed47cad96c70b8273aa82c313e55bb08d9c74e2b3f59b000,GoRed (coll.exe),,Análisis PT
+Malware,GoRed,Hash MD5,63f6de3c86de55172b147b947f29c808,GoRed (63f6de3c86de...virus),,Análisis PT
+Malware,GoRed,Hash SHA1,5a504869350a4bdbcda22b09dbe7b05a7551a860,GoRed (63f6de3c86de...virus),,Análisis PT
+Malware,GoRed,Hash SHA256,f91c9fd27bf0e3a7e82998721946ee70735ec46ee672ca80e3062aa2d5195447,GoRed (63f6de3c86de...virus),,Análisis PT
+Malware,GoRed,Hash MD5,d3cd9d9bad6450e8fd4fd2e972639c69,GoRed (c.upx),Empaquetado con UPX,Análisis PT
+Malware,GoRed,Hash SHA1,a190448a0c01a6e58610de27d022ccba0e755f79,GoRed (c.upx),,Análisis PT
+Malware,GoRed,Hash SHA256,be246cdf932aa5b1c2ada0d74c8d1eca4028538b28fb61d7a8d930b4266fd55c,GoRed (c.upx),,Análisis PT
+Malware,GoRed,Hash MD5,cad5cb82baccd1f28e381e5c924f204a,GoRed (cad5cb82ba...virus),,Análisis PT
+Malware,GoRed,Hash SHA1,81861a853216f78219dd8cb0b4717d5d63260e7d,GoRed (cad5cb82ba...virus),,Análisis PT
+Malware,GoRed,Hash SHA256,ec36fcd64432843292d16f601a758ba4091ada906c5c4c4e540e326676911141,GoRed (cad5cb82ba...virus),,Análisis PT
+Malware,GoRed,Hash MD5,6f6e7fe49a8d5696f389e202d3b8c7e2,GoRed (bb.exe),,Análisis PT
+Malware,GoRed,Hash SHA1,1d784e6c7d12fb7730895f21e4bfd3cde4b3900f,GoRed (bb.exe),,Análisis PT
+Malware,GoRed,Hash SHA256,41d35016c78f86eee8972808c7de8c200ff24625639adff5b9d0ab8773fff6b4,GoRed (bb.exe),,Análisis PT
+Malware,GoRed,Hash MD5,b5dc9a67f76fa18784b51fd3c5b9607c,GoRed (coll.exe v2),,Análisis PT
+Malware,GoRed,Hash SHA1,de243b57b087f5d1cde50db1949aa3744f1f6b5e,GoRed (coll.exe v2),,Análisis PT
+Malware,GoRed,Hash SHA256,aca34d7c3832879f6f7ebe8f7c59160896909574c94d1d12d7c71b6f7918bc50,GoRed (coll.exe v2),,Análisis PT
+Malware,GoRed,Hash MD5,caf68b393d56548074b9434564cb0625,GoRed (revsh.exe),Funcionalidad de reverse shell,Análisis PT
+Malware,GoRed,Hash SHA1,680cb0a25e4a5148f5a1f7d3b75fad4fd345cdb0,GoRed (revsh.exe),,Análisis PT
+Malware,GoRed,Hash SHA256,8d055f3ad4d01f601df24a7c20ded981005adef7e6d26750415d1f95a471c2e3,GoRed (revsh.exe),,Análisis PT
+Malware,GoRed,Hash MD5,b747c05888caf380edf6b2baab142272,GoRed (-),,Análisis PT
+Malware,GoRed,Hash SHA1,ef50067027e27bea188023fa6a8ce9054c7d4ce9,GoRed (-),,Análisis PT
+Malware,GoRed,Hash SHA256,17e57c5e71b99a386b18728eac4a27e83415756071c9e85859940da41e94976b,GoRed (-),,Análisis PT
+Malware,GoRed,Hash MD5,0385b0f83dbfc99c243ff066e3fe3cb2,GoRed (dttcodexgigas...),,Análisis PT
+Malware,GoRed,Hash SHA1,4f6164321d10c7a54a54398ccc7b11c1e7390e38,GoRed (dttcodexgigas...),,Análisis PT
+Malware,GoRed,Hash SHA256,32d76f2fe1188a131cb3219356639e83c60d47a703e40b8801a364d98e37128f,GoRed (dttcodexgigas...),,Análisis PT
+Malware,GoRed,Hash MD5,7dc1e49f1664af70d85d31af70f29071,GoRed (7dc1e49f16...),,Análisis PT
+Malware,GoRed,Hash SHA1,1981f9a1d885c0ccb2d1f5910765a52d1989bc37,GoRed (7dc1e49f16...),,Análisis PT
+Malware,GoRed,Hash SHA256,f3bb44d52e43477ce43c91eb8d9830e356fc105b96377edd6b190fcccda61e2f,GoRed (7dc1e49f16...),,Análisis PT
+Malware,GoRed,Hash MD5,fad11b841d84bbe33248719341b298d3,GoRed (crond),,Análisis PT
+Malware,GoRed,Hash SHA1,fd7532d2a42dd3ba26a1a3453698b8bc481f4675,GoRed (crond),,Análisis PT
+Malware,GoRed,Hash SHA256,e2b2ebe1b82d1c122dc2750f318f2484fe5361fcd964bfdcdcae631cf32f8d37,GoRed (crond),,Análisis PT
+Malware,GoRed,Hash MD5,c02bee46d6a7a46f54e6abe003fec897,GoRed (srond),,Análisis PT
+Malware,GoRed,Hash SHA1,58d03630792f287184177660d9fd846fbde5416c,GoRed (srond),,Análisis PT
+Malware,GoRed,Hash SHA256,4561a38ff34cc71cc73d54e2adfbd378f58d54596b012ff1841fdd7fc42063c3,GoRed (srond),,Análisis PT
+Malware,GoRed,Hash MD5,ad5c0363e7e28c69007f891fbc3dd030,GoRed (scrond),Nombre de archivo inicial detectado,Análisis PT
+Malware,GoRed,Hash SHA1,3dd9bd38a8f8166b1af25cb523a9a6f25b1791df,GoRed (scrond),,Análisis PT
+Malware,GoRed,Hash SHA256,f56b7fbc5dda7e46aff1b7753a1edb1f6fad5c8953dd3dbff30b3d8675b1dbd3,GoRed (scrond),,Análisis PT
+Componente Legítimo,Modificado,Hash MD5,fc3b7f47958f6c1c6a93a2f2f970734c,Scada.Connect.Win.ConnectionImpl.dll,Componente legítimo modificado maliciosamente,Análisis PT
+Componente Legítimo,Modificado,Hash SHA1,8030f2430234426ab3bdc8cdd995be7c4805d7d2,Scada.Connect.Win.ConnectionImpl.dll,,Análisis PT
+Componente Legítimo,Modificado,Hash SHA256,ab801eaa9ad11199e1382a124d6024f9551a5a33ca1b9e5cafc0098621abb91f,Scada.Connect.Win.ConnectionImpl.dll,,Análisis PT
+Utilidad Sistema,Modificada,Hash MD5,4a04baf3c65581bcd14fbaf58aa6860b,ps,Utilidad Linux modificada para ocultar procesos,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA1,352a62abc61c93fdb08f6f4201326f147cb819ca,ps,,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA256,895988088f25c89295f1a17f222a4553eafb2137b115f2ad4a0a25d273eb6521,ps,,Análisis PT
+Utilidad Sistema,Modificada,Hash MD5,83b8aa078be2a0a5ca0ebf1968989a4b,netstat,Utilidad Linux modificada para ocultar conexiones,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA1,a16120cca64e0c9a73f02975691e4675bb4c44a4,netstat,,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA256,a6dfef8616959969c06b65685e39929630f2819e6d5920498cdb1e89185ab7cd,netstat,,Análisis PT
+Utilidad Sistema,Modificada,Hash MD5,b7db832b2598c83b7b077ce603a3ff73,ps (v2),Utilidad Linux modificada para ocultar procesos,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA1,1af6946263f4f548ffcf510c9f68378a4d7e0895,ps (v2),,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA256,20927a1fc3441668264673d77c81652818a630f3b2055545b0e0938c523827c3,ps (v2),,Análisis PT
+Utilidad Sistema,Modificada,Hash MD5,415d091f42fc62e8dfb6f8bb5ce641c5,ss,Utilidad Linux modificada para ocultar conexiones,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA1,ad6653a7ee1bcb9590f5da12cf46d856135bbb71,ss,,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA256,10f1aa385108a88a15c281774f424e18070dcc256d0f778883efe6d7bcacacb6,ss,,Análisis PT
+Utilidad Sistema,Modificada,Hash MD5,cded33e0e37e14bbf7cac53c4e305ece,htop,Utilidad Linux modificada para ocultar procesos,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA1,1fc930a59587fd9faf7536add47d92de0cecea53,htop,,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA256,a9b1a99729860c004fbef463958871956cbb3c8e365383042978c260012055bd,htop,,Análisis PT
+Utilidad Sistema,Modificada,Hash MD5,eda9ca5f9405b5e2d004a4ba5c0dcd16,netstat (v2),Utilidad Linux modificada para ocultar conexiones,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA1,1d4c0b3c74ddacf7459743cc60dd2a819c0c7e27,netstat (v2),,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA256,7e8bde3e34fbf9b99b7915e12de42f6b806153e44b6aaf68b172db50e18e3b9e,netstat (v2),,Análisis PT
+Utilidad Sistema,Modificada,Hash MD5,d215a54c581ab62079389c852d9ef84f,ps (v3),Utilidad Linux modificada para ocultar procesos,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA1,7e0a4c53bf3dfcb08993231539986a220a6803fd,ps (v3),,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA256,ac0906ff674c555e102f076100d0c12ea4a4aa7d74cc15f67c4038a84100f4cf,ps (v3),,Análisis PT
+Utilidad Sistema,Modificada,Hash MD5,ffc418b222c08f3071ff53cde4acb22e,ss (v2),Utilidad Linux modificada para ocultar conexiones,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA1,2683dcce7fc3886f8305030b128103bd82cea528,ss (v2),,Análisis PT
+Utilidad Sistema,Modificada,Hash SHA256,8fe0ba1cb68225ab9a2cb11c1419f52adb03898c5f11d2221ba9765843443d24,ss (v2),,Análisis PT
+Herramienta,Utilidad,Hash MD5,b3a07b9f99f8d36bda871b63d55afb01,gsn,Herramienta personalizada,Análisis PT
+Herramienta,Utilidad,Hash SHA1,7e3d46ce5aa7345d8b84e6145323366122bd21f4,gsn,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,9bad8f88be8f143e37616556b9331af69a806281019b8a336ee6e14cd04b3c0e,gsn,,Análisis PT
+Herramienta,Utilidad,Hash MD5,c1f3f6efb9ef18268eb3b841065e6554,check.zip,Herramienta de verificación,Análisis PT
+Herramienta,Utilidad,Hash SHA1,ca9a2e18119ac348962e2112c6681268e1df73d1,check.zip,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,5a3a44d5482bb9b632d0a9da47e5ae7d27cd397ca08d764bdf1ed636565ef5e7,check.zip,,Análisis PT
+Herramienta,Utilidad,Hash MD5,e210c26d26a1395d9bc1de21fe1b2975,gsn_x86_64-alpine.tar.gz,Versión Alpine de gsn,Análisis PT
+Herramienta,Utilidad,Hash SHA1,4ba1ae554f2cfeeccf250ba5a258a4ffb8651c66,gsn_x86_64-alpine.tar.gz,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,8c545687a21481969ea4299e997cfc527a16503d042c2116801ee08f14ec6595,gsn_x86_64-alpine.tar.gz,,Análisis PT
+Herramienta,Utilidad,Hash MD5,376531d8a3a19016aa64d80dec23d980,xlswifi,Herramienta de enumeración de WiFi,Análisis PT
+Herramienta,Utilidad,Hash SHA1,0f621d371782f8e610c630f942a8951878e90bfe,xlswifi,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,f6e8220dbf407300fbc78d823004de5d0c4d2816218b8e2b5f8993e97f1e6a32,xlswifi,,Análisis PT
+Herramienta,Utilidad,Hash MD5,fcc1ad58da960c5780a66fcc24c6c2fa,xlswired,Herramienta de enumeración de redes cableadas,Análisis PT
+Herramienta,Utilidad,Hash SHA1,928e4e776e82645fe14a53e2ad62b5cb75b98b53,xlswired,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,017e03f9185e24c30de6b94bd6a36d48788d0b72134235e3f3dd1322dca426c9,xlswired,,Análisis PT
+Herramienta,Utilidad,Hash MD5,d08bef69aee69d91b8cd0315175f665c,bitrix.zip,Herramienta empaquetada,Análisis PT
+Herramienta,Utilidad,Hash SHA1,ada92c3a38e227aa8d42b4886e036caddba2cf84,bitrix.zip,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,0ac2f15f3a36e67b8e03f69685193480edf3e3b10fc69ccbec76d3d5878c708c,bitrix.zip,,Análisis PT
+Herramienta,Utilidad,Hash MD5,89ae36448f1922870f1a09c29f17c775,fs,Herramienta de sistema de archivos,Análisis PT
+Herramienta,Utilidad,Hash SHA1,3b1329e81739b1ea6acbb4ec4dff11f02ff42570,fs,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,f34bd1d485de437fe18360d1e850c3fd64415e49d691e610711d8d232071a0b1,fs,,Análisis PT
+Herramienta,Utilidad,Hash MD5,46eb5fa7c75cc29d89f3e48be26bbd46,get_wp-commentin.txt,Script para WordPress,Análisis PT
+Herramienta,Utilidad,Hash SHA1,36ef757aa3eedc3ec22bb56d60931c88cc62770e,get_wp-commentin.txt,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,c287956c4eb683e1ee62bc9ddb739d3d1c9c5dad7a73be3977bc53468665c7f7,get_wp-commentin.txt,,Análisis PT
+Herramienta,Utilidad,Hash MD5,848faa5839487c4331cb2a1146811f23,install,Script de instalación,Análisis PT
+Herramienta,Utilidad,Hash SHA1,f67dbe68fc11139b719fec11784247c5f6e7ea93,install,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,37affeab7fb06a052413e9cc9272ea9cb2fd160fd204b506620d4303b06298c4,install,,Análisis PT
+Herramienta,Utilidad,Hash MD5,0cda2ee10f5b8e9a241ef3e7e352752d,k,Utilidad que reemplaza su nombre de proceso por [kthr],Análisis PT
+Herramienta,Utilidad,Hash SHA1,6ffe11b31443bd9cef4928aa3f29b11d0e47ccec,k,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,6262558adf132ae3c67d6f241c7abd62f987ce2881d459a66332234971e49e95,k,,Análisis PT
+Herramienta,Utilidad,Hash MD5,2cad1092a2828a33df2156a3a97d7cf1,kit,Kit de herramientas,Análisis PT
+Herramienta,Utilidad,Hash SHA1,27dd8d144d0ac3af9f4ad3df8a060d86166ae7a5,kit,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,c738d594d09c651109c4422acbecad23a461bab6cd4eafc41546f036816533a0,kit,,Análisis PT
+Herramienta,Utilidad,Hash MD5,a2ff5b0bc0782560090574c992ccf995,lock.zip,Herramienta de bloqueo empaquetada,Análisis PT
+Herramienta,Utilidad,Hash SHA1,97a3ead87af829f77dacfa23ab2786b21b427332,lock.zip,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,c0cd580d83f4171b34b956d0c29dbc8fcafba8889594d85d471c14d7cf33be79,lock.zip,,Análisis PT
+Herramienta,Utilidad,Hash MD5,d3064fe5d8a402b26099fcdbaeaedef1,locker,Herramienta de bloqueo,Análisis PT
+Herramienta,Utilidad,Hash SHA1,f07e31056001ccc26be75772c9a2f3972cd8d96a,locker,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,22ab2abda59edc1b6ba733fc140ab0c6b0c503b726a377a2e2ee6e6c95644aae,locker,,Análisis PT
+Herramienta,Utilidad,Hash MD5,fbb3f02b37b10bde868fed9d7b750fd8,m,Herramienta de utilidad,Análisis PT
+Herramienta,Utilidad,Hash SHA1,7c27d25dbc01958724fd55f0fadf966e892d181e,m,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,211a73ab3fb49957277a2efb50ad3140673b65df577961a58c3c9c90791e961e,m,,Análisis PT
+Herramienta,Utilidad,Hash MD5,9b6122f1b4f6513c22b50ef05e881f38,rev,Bind shell que reemplaza su nombre por [kr],Análisis PT
+Herramienta,Utilidad,Hash SHA1,6559a9eda3b8164e0c8926b4b71780f7744c4cb7,rev,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,1b96adc3c129e7e41f7c67f0d56dc05d6cdee31f69ff85f27e6a90270cfefdcf,rev,,Análisis PT
+Herramienta,Utilidad,Hash MD5,bc421b337fc639749528f2e756239269,sf,Herramienta de utilidad,Análisis PT
+Herramienta,Utilidad,Hash SHA1,d75faee2f8ec90a69354a2c033f20e18e5ed0589,sf,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,bc159721bbe192f9c5cd24d3e9356a28f5b0c6b182de9fecf0b0ac28035f566a,sf,,Análisis PT
+Herramienta,Utilidad,Hash MD5,76cc921e5b26a0720db213479bff1ea2,spark,Spark RAT,Análisis PT
+Herramienta,Utilidad,Hash SHA1,f640f70d1b65b0bfc8bcbf5261f3cdc85cfe7a21,spark,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,1807c7a44da958f15e4dcb77cab78e92eeb96b3ace91d6923c2022d646d5593c,spark,,Análisis PT
+Herramienta,Utilidad,Hash MD5,3500760bc3e69102e01d256637f5f4a8,w.txt,Archivo de texto auxiliar,Análisis PT
+Herramienta,Utilidad,Hash SHA1,6ff2821bef28476341b75b67d9c9f2d66d4b6cfe,w.txt,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,a5e61987676b7aed2c6d6d32c657f9351c2daa7c36365db20713dd42a03b1504,w.txt,,Análisis PT
+Herramienta,Utilidad,Hash MD5,b7735e157273a013f26515f0c969b093,wef,Herramienta de utilidad,Análisis PT
+Herramienta,Utilidad,Hash SHA1,5e79fffbbafddeb2d85c8fe835b07eeda08cc319,wef,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,86bd9caab7526f2cd7e468d692ee2bac571465d25eb0619a10b0b46ae9a5b8e2,wef,,Análisis PT
+Herramienta,Utilidad,Hash MD5,166a248f264fbf11998c86e8b384e47a,y.txt,Archivo de texto auxiliar,Análisis PT
+Herramienta,Utilidad,Hash SHA1,9de84bd7118dee80f5b309ddbc46dc31283cbb0e,y.txt,,Análisis PT
+Herramienta,Utilidad,Hash SHA256,91136b3145a52b66a3f5edd7d8a8d06698666300f24861074df1308491f50ba5,y.txt,,Análisis PT
+Herramienta,Exploit,Hash MD5,489fbca25049e5fab9dca10541e33214,3156.zip,Exploit para CVE-2021-3156 (Baron Samedit en sudo),Escalada de privilegios Linux,Análisis PT
+Herramienta,Exploit,Hash SHA1,91eeab83ddcd82a77804f2e5572d849dc846b225,3156.zip,,Análisis PT
+Herramienta,Exploit,Hash SHA256,9ec7495bb6d3a7d3bfd5d5ae9e704d0f42f3136166652a5576f15d0379126d75,3156.zip,,Análisis PT
+Herramienta,Exploit,Hash MD5,a5fa43f822b6dd88298371232d49c597,4034,Exploit para CVE-2021-4034 (Pwnkit en pkexec),Escalada de privilegios Linux,Análisis PT
+Herramienta,Exploit,Hash SHA1,1aa5b4deae98f707b0a529d97fd8e7f2372c549e,4034,,Análisis PT
+Herramienta,Exploit,Hash SHA256,7d2ae888fd06b811f6ba880c1fec3f37d49d50e0716de1b28f978240abe7795e,4034,,Análisis PT
+Dominio,C2,FQDN,pkg.collect.net.in,Dominio C2 de GoRed,Identificado como C2 para variante Bulldog,Análisis PT
+Dominio,C2,FQDN,leo.rpm-bin.link,Subdominio C2 / Distribución de herramientas,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,lib.rest,Dominio C2 de ExCobalt,Listado en configuración estática de GoRed,Análisis PT
+Dominio,C2,FQDN,rosm.pro,Dominio C2 / GoRed C2,Usado para túnel DNS,Análisis PT
+Dominio,C2,FQDN,sula.rpm-bin.link,Subdominio C2 de ExCobalt,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,get.upd-rkn.net,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,rls.upd-rkn.net,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,mtp.upd-rk.net,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,get.upd-rk.net,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,src.setup.mom,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,wired.setup.mom,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,get.rpm-bin.link,Subdominio C2 / Distribución de herramientas,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,ci.upd-rkn.net,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,base.upd-rkn.net,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,mtp.upd-rkn.net,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,bot.upd-rkn.net,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,narwhal.rpm-bin.link,Subdominio C2 de ExCobalt,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,unicorn.rpm-bin.link,Subdominio C2 de ExCobalt,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,ci.rpm-bin.link,Subdominio C2 de ExCobalt,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,ops.rpm-bin.link,Subdominio C2 de ExCobalt,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,lib.rpm-bin.link,Subdominio C2 / Distribución de herramientas,Alojó herramientas y la v1 de GoRed ("col"),Análisis PT
+Dominio,C2,FQDN,rhl.rpm-bin.link,Subdominio C2 de ExCobalt,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,source.rpm-bin.link,Subdominio C2 de ExCobalt,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,chifa.rpm-bin.link,Subdominio C2 de ExCobalt,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,amd64.rpm-bin.link,Subdominio C2 de ExCobalt,Dominio central observado en múltiples incidentes,Análisis PT
+Dominio,C2,FQDN,get.setup.mom,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,trust.setup.mom,Subdominio C2 de ExCobalt,Dominio asociado a infraestructura C2,Análisis PT
+Dominio,C2,FQDN,8E1A4QB4OGA66RPJCHL72DJGCKRMIOR8CDN3EDJBDOOAEQ3FEDQ5UQB4OGA66RP.JCHL6EDJGCKRMIOR8CDN3EDJBDLJG.rosm[.]pro,Subdominio de tunelización DNS,Ejemplo de dominio de túnel DNS usando Base64/Base32,Análisis PT
+IP,C2,Dirección,45.146.7.26,IP de servidor C2,Asociada a infraestructura ExCobalt,Análisis PT
+IP,C2,Dirección,193.37.71.75,IP de servidor C2,Asociada a infraestructura ExCobalt,Análisis PT
+IP,C2,Dirección,45.146.7.16,IP de servidor C2,Asociada a infraestructura ExCobalt,Análisis PT
+IP,C2,Dirección,94.131.113.95,IP de servidor C2,Asociada a dominio upd-rkn.net,Análisis PT
+IP,C2,Dirección,45.147.200.165,IP de servidor C2,Asociada a dominio setup.mom,Análisis PT
+IP,C2,Dirección,188.127.225.231,IP de servidor C2,Asociada a dominio setup.mom,Análisis PT
+IP,C2,Dirección,75.119.130.76,IP de servidor C2,Asociada a infraestructura ExCobalt,Análisis PT
+IP,C2,Dirección,135.125.107.221,IP de servidor C2,Asociada a infraestructura ExCobalt,Análisis PT
+IP,C2,Dirección,45.87.247.239,IP de servidor C2,Asociada a infraestructura ExCobalt,Análisis PT
+Protocolo C2,Principal,Protocolo,RPC (Remote Procedure Call),Protocolo base para comunicación C2 de GoRed,,Análisis PT
+Protocolo C2,Transporte,Protocolo,Túnel DNS,Codificación Base64/Base32 en subdominios,,Análisis PT
+Protocolo C2,Transporte,Protocolo,Túnel ICMP,Comunicación C2 encapsulada sobre protocolo ICMP,,Análisis PT
+Protocolo C2,Transporte,Protocolo,WSS (WebSocket Secure),Canal de comunicación C2 alternativo,,Análisis PT
+Protocolo C2,Transporte,Protocolo,QUIC,Protocolo moderno utilizado para comunicación C2,,Análisis PT
+Protocolo C2,Cifrado,Algoritmo,AES-256-GCM,Método de cifrado para tráfico C2 y exfiltración,,Análisis PT
+Protocolo C2,Serialización,Formato,CBOR,Formato de serialización para comunicaciones RPC,,Análisis PT
+Protocolo C2,Serialización,Formato,msgpack,Formato utilizado para serializar datos exfiltrados,,Análisis PT
+Protocolo C2,Patrón,Comportamiento,Heartbeat (comando "gecko"),Comunicación periódica con el servidor C2,,Análisis PT
+Protocolo C2,Patrón,Comportamiento,Modo "stealth",Frecuencia variable del heartbeat para evitar detección,,Análisis PT
+Protocolo C2,Patrón,Comportamiento,emit-period,Comando para ajustar frecuencia del heartbeat,,Análisis PT
+Artefacto Sistema,Ruta,Archivo,/usr/local/games/w,Binario droppeado por script "install[drop]",,Análisis PT
+Artefacto Sistema,Ruta,Archivo,/dev/shm/.gs-0/gsn,Archivo asociado al módulo gsocket,,Análisis PT
+Artefacto Sistema,Archivo,Registro,.log (en directorio temporal),Posibles logs creados por GoRed,,Análisis PT
+Artefacto Sistema,Ruta,Archivo,install[drop],Script dropper que escribe un binario en /usr/local/games/w,,Análisis PT
+Persistencia,Variable,Entorno,BB_WS,Variable de entorno para persistencia de GoRed,Configuración del canal WSS,Análisis PT
+Persistencia,Variable,Entorno,BB_QUIC,Variable de entorno para persistencia de GoRed,Configuración del canal QUIC,Análisis PT
+Persistencia,Variable,Entorno,BB_ICMP,Variable de entorno para persistencia de GoRed,Configuración del canal ICMP,Análisis PT
+Persistencia,Variable,Entorno,BB_DNS,Variable de entorno para persistencia de GoRed,Configuración del canal DNS,Análisis PT
+Persistencia,Variable,Entorno,BB_START_DELAY,Variable de entorno para persistencia de GoRed,Configuración del retraso inicial,Análisis PT
+Proceso,Nombre,Enmascarado,[kthr],Nombre utilizado por la utilidad "k" para ocultarse,Imita un hilo del kernel,Análisis PT
+Proceso,Nombre,Enmascarado,[kr],Nombre utilizado por la utilidad "rev" (bind shell),Imita un hilo del kernel,Análisis PT
+Proceso,Nombre,Enmascarado,core,Asociado al módulo gsocket,Oculto mediante modificación de ps/htop,Análisis PT
+Proceso,Nombre,Malware,scrond,Nombre probable del proceso principal de GoRed,,Análisis PT
+Comportamiento,Alteración,Sistema,Modificación de ps,Modifica utilidad para ocultar procesos,,Análisis PT
+Comportamiento,Alteración,Sistema,Modificación de netstat,Modifica utilidad para ocultar conexiones,,Análisis PT
+Comportamiento,Alteración,Sistema,Modificación de ss,Modifica utilidad para ocultar conexiones,,Análisis PT
+Comportamiento,Alteración,Sistema,Modificación de htop,Modifica utilidad para ocultar procesos,,Análisis PT
+Comando GoRed,Reconocimiento,Capacidad,Recopilación de información,Procesos, nombre de host, interfaces de red, sistema de archivos,,Análisis PT
+Comando GoRed,Monitorización,Comando,birdwatch,Monitorización de archivos específicos,,Análisis PT
+Comando GoRed,Credenciales,Capacidad,Monitoreo de /etc/shadow,Captura de cambios en contraseñas de Linux/Unix,,Análisis PT
+Comando GoRed,Control,Capacidad,Ejecución remota de comandos,Permite ejecutar comandos arbitrarios en el sistema,,Análisis PT
+Comando GoRed,Control,Comando,shell,Establece una shell inversa para acceso interactivo,,Análisis PT
+Comando GoRed,Movimiento Lateral,Comando,socksd,Proxy SOCKS4/5 para pivoteo dentro de la red,,Análisis PT
+Comando GoRed,Utilidad,Comando,curl,Descarga de contenido desde URLs específicas,,Análisis PT
+Comando GoRed,Utilidad,Comando,host,Prueba de resolución DNS,,Análisis PT
+Comando GoRed,FreeBSD,Comando,run,Comando específico para sistemas FreeBSD,,Análisis PT
+Comando GoRed,FreeBSD,Comando,set,Comando específico para sistemas FreeBSD,,Análisis PT
+Comando GoRed,Configuración,Comando,emit-period,Ajusta la frecuencia del heartbeat,,Análisis PT
+Comando GoRed,Actualización,Capacidad,Auto-actualización,Capacidad de actualizarse a sí mismo,,Análisis PT
+Vulnerabilidad,CVE,Escalada Privilegios,CVE-2019-13272,Vulnerabilidad ptrace en Linux,Escalada de privilegios Linux,Análisis PT
+Vulnerabilidad,CVE,Escalada Privilegios,CVE-2021-3156,Baron Samedit en sudo,Escalada de privilegios Linux,Análisis PT
+Vulnerabilidad,CVE,Escalada Privilegios,CVE-2021-4034,Pwnkit en pkexec,Escalada de privilegios Linux,Análisis PT
+Vulnerabilidad,CVE,Escalada Privilegios,CVE-2022-2586,Abuso de puntero en io_uring,Escalada de privilegios Linux,Análisis PT
+Vulnerabilidad,CVE,Acceso Inicial,CVE-2023-38831,Vulnerabilidad en WinRAR,Explotada para acceso inicial,Análisis PT
+Vulnerabilidad,CVE,Acceso Inicial,CVE-2023-3519,Vulnerabilidad en Citrix,Explotada para acceso inicial,Análisis PT
+Vulnerabilidad,CVE,General,CVE-2022-27228,No especificado,Explotada por ExCobalt,Análisis PT
+Vulnerabilidad,CVE,General,CVE-2021-44228,Log4Shell,Vulnerabilidad en Log4j,Análisis PT
+Vulnerabilidad,CVE,General,CVE-2021-40438,No especificado,Explotada por ExCobalt,Análisis PT
+Vulnerabilidad,CVE,General,BDU:2023-05857,No especificado,Explotada por ExCobalt,Análisis PT
+Vulnerabilidad,CVE,General,CVE-2019-12725,No especificado,Explotada por ExCobalt,Análisis PT
+Sector Objetivo,Industria,Primario,Metalurgia,Sector crítico objetivo de ExCobalt,Ubicado en Rusia,Análisis PT
+Sector Objetivo,Industria,Primario,Telecomunicaciones,Sector crítico objetivo de ExCobalt,Ubicado en Rusia,Análisis PT
+Sector Objetivo,Industria,Primario,Minería,Sector crítico objetivo de ExCobalt,Ubicado en Rusia,Análisis PT
+Sector Objetivo,Industria,Primario,Tecnología de la Información,Sector crítico objetivo de ExCobalt,Ubicado en Rusia,Análisis PT
+Sector Objetivo,Industria,Primario,Gobierno,Sector crítico objetivo de ExCobalt,Ubicado en Rusia,Análisis PT
+Sector Objetivo,Industria,Primario,Desarrollo de Software,Sector crítico objetivo de ExCobalt,Ubicado en Rusia,Análisis PT
+Sector Objetivo,Industria,Primario,Energía,Sector crítico objetivo de ExCobalt,Ubicado en Rusia,Análisis PT
+Sector Objetivo,Industria,Secundario,Educación,Sector objetivo secundario,Ubicado en Rusia,Análisis PT
+Sector Objetivo,Industria,Secundario,Finanzas,Sector objetivo secundario,Ubicado en Rusia,Análisis PT
+Sector Objetivo,Industria,Secundario,Comercio minorista,Sector objetivo secundario,Ubicado en Rusia,Análisis PT
+Vector Acceso,Método,Principal,Compromiso de Cadena de Suministro,Infección de componentes de software legítimos,Requiere reconocimiento significativo,Análisis PT
+Vector Acceso,Método,Principal,Contratista Comprometido,Aprovechamiento de relaciones de confianza y accesos VPN,Explota confianza implícita,Análisis PT
+Vector Acceso,Método,Secundario,Spear-phishing,Posible método heredado del Cobalt Gang,Menos documentado para ExCobalt específicamente,Análisis PT
+Vector Acceso,Método,Secundario,Explotación de vulnerabilidades,CVE-2023-38831 (WinRAR) y CVE-2023-3519 (Citrix),,Análisis PT
+Alias,Nombre,Alternativo,Shedding Zmiy,Alias asociado a ExCobalt,Particularmente en contexto de ataques contra Rusia,Análisis PT
