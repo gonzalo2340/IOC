@@ -1,1 +1,67 @@
-
+title: GoRed Linux Rootkit Components Detection
+id: 9e87f234-6a12-4d78-b9e3-8f71c9e2c6d5
+status: experimental
+description: Detects the presence of GoRed rootkit components that modify standard Linux utilities to hide malicious activity
+references:
+  - Análisis PT
+author: FERNANDEZ GONZALO
+date: 2025/04/15
+tags:
+  - attack.defense_evasion
+  - attack.t1014
+  - attack.persistence
+  - attack.t1543.002
+  - gored
+  - excobalt
+  - linux
+  - rootkit
+logsource:
+  product: linux
+  category: file_event
+detection:
+  selection_modified_binaries:
+    TargetFilename:
+      - '/bin/ps'
+      - '/bin/netstat'
+      - '/usr/bin/ss'
+      - '/usr/bin/htop'
+    # Detect by file hash
+    Hashes|contains:
+      - 'MD5=4a04baf3c65581bcd14fbaf58aa6860b'
+      - 'MD5=83b8aa078be2a0a5ca0ebf1968989a4b'
+      - 'MD5=b7db832b2598c83b7b077ce603a3ff73'
+      - 'MD5=415d091f42fc62e8dfb6f8bb5ce641c5'
+      - 'MD5=cded33e0e37e14bbf7cac53c4e305ece'
+      - 'MD5=eda9ca5f9405b5e2d004a4ba5c0dcd16'
+      - 'MD5=d215a54c581ab62079389c852d9ef84f'
+      - 'MD5=ffc418b222c08f3071ff53cde4acb22e'
+  # Detect replacement of system binaries
+  selection_binary_modification:
+    Image|endswith:
+      - '/ps'
+      - '/netstat'
+      - '/ss'
+      - '/htop'
+    CommandLine|contains:
+      - 'chmod'
+      - 'chown'
+      - 'install'
+      - 'cp'
+      - 'mv'
+  # Detect suspicious paths where rookit components might be stored
+  selection_suspicious_path:
+    TargetFilename|contains:
+      - '/dev/shm/'
+      - '/tmp/'
+      - '/var/tmp/'
+    TargetFilename|endswith:
+      - '/ps'
+      - '/netstat'
+      - '/ss'
+      - '/htop'
+  condition: 1 of selection_*
+falsepositives:
+  - System updates
+  - Legitimate replacement of system binaries by admins
+  - Custom monitoring tools
+level: critical
