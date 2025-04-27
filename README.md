@@ -7,11 +7,6 @@ Este repositorio centraliza **Indicadores de Compromiso (IOCs)** relevantes para
 * **Formato CSV estandarizado:** Ideal para la importación en Sistemas de Gestión de Eventos e Información de Seguridad (SIEMs) y otras herramientas de análisis.
 * **Reglas SIGMA:** Listas de detección en formato YAML, listas para su implementación directa en diversos sistemas de detección.
 
-## Estructura del Repositorio
-
-¡Claro! Vamos a darle un buen lavado de cara a ese README para que se vea más profesional y fácil de leer. Aquí tienes una versión revisada y mejorada:
-
-Markdown
 
 # Repositorio de Indicadores de Compromiso (IOCs)
 
