@@ -161,7 +161,7 @@ Este repositorio se actualiza de forma regular con nuevos indicadores de amenaza
 
 Para preguntas, sugerencias o para reportar posibles falsos positivos, por favor utiliza los siguientes canales:
 
-* **Email:** [fernandez.gonzalo.gf3@gmail.com](mailto:fernandez.gonzalo.gf3@gmail.com)
+* **Email:** (mailto:fernandez.gonzalo.gf3@gmail.com)
 * **GitHub Issues:** Abre un nuevo "Issue" en este repositorio para reportar problemas o sugerencias.
 
 ---
