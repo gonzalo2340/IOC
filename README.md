@@ -24,23 +24,23 @@ Este repositorio centraliza **Indicadores de Compromiso (IOCs)** relevantes para
 
 ## Estructura del Repositorio
 
-/
 ├── csv/
-│   ├── file_hashes.csv          # Hashes de archivos maliciosos (MD5, SHA1, SHA256, etc.)
-│   ├── network_indicators.csv   # Dominios, direcciones IP y URLs maliciosas
-│   ├── system_artifacts.csv     # Artefactos relevantes en sistemas (rutas de archivos, nombres de procesos, claves de registro, etc.)
-│   ├── persistence_mechanisms.csv # Técnicas de persistencia utilizadas por malware
-│   ├── c2_protocols.csv         # Patrones de comunicación de Comando y Control (C2)
-│   ├── commands.csv             # Comandos comúnmente utilizados por software malicioso
-│   ├── vulnerabilities.csv      # Identificadores CVE de vulnerabilidades explotadas
-│   ├── targets.csv              # Sectores e industrias que son blanco de ataques
-│   ├── ttps.csv                 # Tácticas, Técnicas y Procedimientos (TTPs) observados
-│   └── aliases.csv              # Nombres alternativos o alias de grupos o amenazas
+│   ├── file_hashes.csv           # Hashes de archivos maliciosos (MD5, SHA1, SHA256, etc.)
+│   ├── network_indicators.csv    # Dominios, direcciones IP y URLs maliciosas
+│   ├── system_artifacts.csv      # Artefactos relevantes en sistemas (rutas de archivos, nombres de procesos, claves de registro, etc.)
+│   ├── persistence_mechanisms.csv# Técnicas de persistencia utilizadas por malware
+│   ├── c2_protocols.csv          # Patrones de comunicación de Comando y Control (C2)
+│   ├── commands.csv              # Comandos comúnmente utilizados por software malicioso
+│   ├── vulnerabilities.csv       # Identificadores CVE de vulnerabilidades explotadas
+│   ├── targets.csv               # Sectores e industrias que son blanco de ataques
+│   ├── ttps.csv                  # Tácticas, Técnicas y Procedimientos (TTPs) observados
+│   └── aliases.csv               # Nombres alternativos o alias de grupos o amenazas
 ├── sigma_rules/
-│   ├── windows/               # Reglas SIGMA específicas para sistemas Windows
-│   ├── linux/                 # Reglas SIGMA específicas para sistemas Linux
-│   ├── network/               # Reglas SIGMA para la detección en el tráfico de red
-│   └── multi/                 # Reglas SIGMA multiplataforma o aplicables a varios entornos
+│   ├── windows/                  # Reglas SIGMA específicas para sistemas Windows
+│   ├── linux/                    # Reglas SIGMA específicas para sistemas Linux
+│   ├── network/                  # Reglas SIGMA para la detección en el tráfico de red
+│   └── multi/                    # Reglas SIGMA multiplataforma o aplicables a varios entornos
+
 ## Formato de los IOCs en CSV
 
 Todos los archivos CSV dentro del directorio `/csv/` siguen el siguiente formato estandarizado para garantizar la consistencia y facilitar la importación:
