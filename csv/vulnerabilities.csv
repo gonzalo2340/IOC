@@ -1,0 +1,12 @@
+indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
+CVE-2019-13272,cve,ExCobalt,"Vulnerabilidad ptrace en Linux, Escalada de privilegios Linux",high,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt,privilege_escalation,linux"
+CVE-2021-3156,cve,ExCobalt,"Baron Samedit en sudo, Escalada de privilegios Linux",high,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt,privilege_escalation,linux,sudo"
+CVE-2021-4034,cve,ExCobalt,"Pwnkit en pkexec, Escalada de privilegios Linux",high,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt,privilege_escalation,linux,pkexec"
+CVE-2022-2586,cve,ExCobalt,"Abuso de puntero en io_uring, Escalada de privilegios Linux",high,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt,privilege_escalation,linux,io_uring"
+CVE-2023-38831,cve,ExCobalt,"Vulnerabilidad en WinRAR, Explotada para acceso inicial",high,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt,initial_access,windows,winrar"
+CVE-2023-3519,cve,ExCobalt,"Vulnerabilidad en Citrix, Explotada para acceso inicial",high,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt,initial_access,citrix"
+CVE-2022-27228,cve,ExCobalt,"No especificado, Explotada por ExCobalt",medium,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt"
+CVE-2021-44228,cve,ExCobalt,"Log4Shell, Vulnerabilidad en Log4j",high,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt,log4j,log4shell,java"
+CVE-2021-40438,cve,ExCobalt,"No especificado, Explotada por ExCobalt",medium,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt"
+BDU:2023-05857,bdu,ExCobalt,"No especificado, Explotada por ExCobalt",medium,2023-04-15,Análisis PT,"vulnerability,bdu,gored,excobalt"
+CVE-2019-12725,cve,ExCobalt,"No especificado, Explotada por ExCobalt",medium,2023-04-15,Análisis PT,"vulnerability,cve,gored,excobalt"
