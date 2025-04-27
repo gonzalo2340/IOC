@@ -24,39 +24,57 @@ Este repositorio centraliza **Indicadores de Compromiso (IOCs)** relevantes para
 
 ## Estructura del Repositorio
 
-/
-|
-+--- csv/
-|     |
-|     +--- file_hashes.csv          # Hashes de archivos maliciosos (MD5, SHA1, SHA256, etc.)
-|     |
-|     +--- network_indicators.csv   # Dominios, direcciones IP y URLs maliciosas
-|     |
-|     +--- system_artifacts.csv     # Artefactos relevantes en sistemas
-|     |
-|     +--- persistence_mechanisms.csv # Técnicas de persistencia utilizadas por malware
-|     |
-|     +--- c2_protocols.csv         # Patrones de comunicación de Comando y Control (C2)
-|     |
-|     +--- commands.csv             # Comandos comúnmente utilizados por software malicioso
-|     |
-|     +--- vulnerabilities.csv      # Identificadores CVE de vulnerabilidades explotadas
-|     |
-|     +--- targets.csv              # Sectores e industrias que son blanco de ataques
-|     |
-|     +--- ttps.csv                 # Tácticas, Técnicas y Procedimientos observados
-|     |
-|     +--- aliases.csv              # Nombres alternativos o alias de grupos o amenazas
-|
-+--- sigma_rules/
-      |
-      +--- windows/                 # Reglas SIGMA específicas para sistemas Windows
-      |
-      +--- linux/                   # Reglas SIGMA específicas para sistemas Linux
-      |
-      +--- network/                 # Reglas SIGMA para la detección en el tráfico de red
-      |
-      +--- multi/                   # Reglas SIGMA multiplataforma o aplicables a varios entornos
+# ESTRUCTURA DEL REPOSITORIO
+
+## 1. Directorio CSV
+Contiene indicadores de compromiso y datos de inteligencia de amenazas en formato CSV.
+
+| Archivo | Descripción |
+|---------|-------------|
+| file_hashes.csv | Hashes de archivos maliciosos (MD5, SHA1, SHA256, etc.) |
+| network_indicators.csv | Dominios, direcciones IP y URLs maliciosas |
+| system_artifacts.csv | Artefactos relevantes en sistemas (rutas, procesos, registros) |
+| persistence_mechanisms.csv | Técnicas de persistencia utilizadas por malware |
+| c2_protocols.csv | Patrones de comunicación de Comando y Control (C2) |
+| commands.csv | Comandos comúnmente utilizados por software malicioso |
+| vulnerabilities.csv | Identificadores CVE de vulnerabilidades explotadas |
+| targets.csv | Sectores e industrias que son blanco de ataques |
+| ttps.csv | Tácticas, Técnicas y Procedimientos (TTPs) observados |
+| aliases.csv | Nombres alternativos o alias de grupos o amenazas |
+
+## 2. Directorio SIGMA_RULES
+Contiene reglas de detección en formato SIGMA organizadas por plataforma.
+
+| Subdirectorio | Descripción |
+|---------------|-------------|
+| windows/ | Reglas SIGMA específicas para sistemas Windows |
+| linux/ | Reglas SIGMA específicas para sistemas Linux |
+| network/ | Reglas SIGMA para la detección en el tráfico de red |
+| multi/ | Reglas SIGMA multiplataforma o aplicables a varios entornos |
+
+## Estructura Visual Simplificada
+
+```
+REPOSITORIO
+│
+├── csv/
+│   ├── file_hashes.csv
+│   ├── network_indicators.csv
+│   ├── system_artifacts.csv
+│   ├── persistence_mechanisms.csv
+│   ├── c2_protocols.csv
+│   ├── commands.csv
+│   ├── vulnerabilities.csv
+│   ├── targets.csv
+│   ├── ttps.csv
+│   └── aliases.csv
+│
+└── sigma_rules/
+    ├── windows/
+    ├── linux/
+    ├── network/
+    └── multi/
+```
     
 ## Formato de los IOCs en CSV
 
