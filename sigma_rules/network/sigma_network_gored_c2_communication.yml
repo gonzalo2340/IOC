@@ -1,1 +1,56 @@
-
+title: ExCobalt C2 Network Communication Detection
+id: 5a2e87d6-71c3-4f54-9d81-c213e6291e50
+status: experimental
+description: Detects network communications with known ExCobalt command and control infrastructure through domain names and IP addresses
+references:
+  - Análisis PT
+author: FERNANDEZ GONZALO
+date: 2025/04/15
+tags:
+  - attack.command_and_control
+  - attack.t1071
+  - attack.t1095
+  - attack.t1572
+  - gored
+  - excobalt
+logsource:
+  category: proxy
+detection:
+  selection_domains:
+    c-uri|contains:
+      - 'pkg.collect.net.in'
+      - 'leo.rpm-bin.link'
+      - 'lib.rest'
+      - 'rosm.pro'
+      - 'sula.rpm-bin.link'
+      - 'get.upd-rkn.net'
+      - 'rls.upd-rkn.net'
+      - 'mtp.upd-rk.net'
+      - 'get.upd-rk.net'
+      - 'src.setup.mom'
+      - 'wired.setup.mom'
+      - 'get.rpm-bin.link'
+      - 'ci.upd-rkn.net'
+      - 'base.upd-rkn.net'
+      - 'bot.upd-rkn.net'
+      - 'narwhal.rpm-bin.link'
+      - 'unicorn.rpm-bin.link'
+  selection_ips:
+    dst_ip:
+      - '45.146.7.26'
+      - '193.37.71.75'
+      - '45.146.7.16'
+      - '94.131.113.95'
+      - '45.147.200.165'
+      - '188.127.225.231'
+      - '75.119.130.76'
+      - '135.125.107.221'
+      - '45.87.247.239'
+  selection_dns_tunneling:
+    c-uri|contains:
+      - '.JCHL6EDJGCKRMIOR8CDN3EDJBDLJG.rosm.pro'
+  condition: 1 of selection_*
+falsepositives:
+  - Legitimate domains with similar names
+  - Legitimate communications with shared hosting providers using the same IPs
+level: high
