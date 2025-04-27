@@ -1,0 +1,12 @@
+indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
+RPC,protocol,GoRed,"Protocolo base para comunicación C2 de GoRed",high,2023-04-15,Análisis PT,"c2,protocol,gored,rpc"
+DNS_TUNNEL,protocol,GoRed,"Codificación Base64/Base32 en subdominios",high,2023-04-15,Análisis PT,"c2,protocol,gored,dns_tunnel,base64,base32"
+ICMP_TUNNEL,protocol,GoRed,"Comunicación C2 encapsulada sobre protocolo ICMP",high,2023-04-15,Análisis PT,"c2,protocol,gored,icmp_tunnel"
+WSS,protocol,GoRed,"Canal de comunicación C2 alternativo (WebSocket Secure)",high,2023-04-15,Análisis PT,"c2,protocol,gored,wss,websocket"
+QUIC,protocol,GoRed,"Protocolo moderno utilizado para comunicación C2",high,2023-04-15,Análisis PT,"c2,protocol,gored,quic"
+AES-256-GCM,encryption,GoRed,"Método de cifrado para tráfico C2 y exfiltración",high,2023-04-15,Análisis PT,"c2,encryption,gored,aes"
+CBOR,serialization,GoRed,"Formato de serialización para comunicaciones RPC",high,2023-04-15,Análisis PT,"c2,serialization,gored,cbor,rpc"
+msgpack,serialization,GoRed,"Formato utilizado para serializar datos exfiltrados",high,2023-04-15,Análisis PT,"c2,serialization,gored,msgpack,exfiltration"
+HEARTBEAT,behavior,GoRed,"Comunicación periódica con el servidor C2 (comando 'gecko')",high,2023-04-15,Análisis PT,"c2,behavior,gored,heartbeat"
+STEALTH_MODE,behavior,GoRed,"Frecuencia variable del heartbeat para evitar detección",high,2023-04-15,Análisis PT,"c2,behavior,gored,evasion"
+EMIT_PERIOD,command,GoRed,"Comando para ajustar frecuencia del heartbeat",high,2023-04-15,Análisis PT,"c2,command,gored,heartbeat_config"
