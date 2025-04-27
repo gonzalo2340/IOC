@@ -41,7 +41,6 @@ Este repositorio centraliza **Indicadores de Compromiso (IOCs)** relevantes para
 │   ├── linux/                 # Reglas SIGMA específicas para sistemas Linux
 │   ├── network/               # Reglas SIGMA para la detección en el tráfico de red
 │   └── multi/                 # Reglas SIGMA multiplataforma o aplicables a varios entornos
-
 ## Formato de los IOCs en CSV
 
 Todos los archivos CSV dentro del directorio `/csv/` siguen el siguiente formato estandarizado para garantizar la consistencia y facilitar la importación:
