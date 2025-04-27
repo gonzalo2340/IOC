@@ -1,1 +1,80 @@
-
+title: ExCobalt Supply Chain Attack Detection
+id: 8e4f2a7d-9c6b-5e1a-3b8d-7f5a2c9e4d1b
+status: experimental
+description: Detects indicators of supply chain compromise techniques used by ExCobalt, particularly focusing on software component modifications and trusted relationship exploitation
+references:
+  - Análisis PT
+author: FERNANDEZ GONZALO
+date: 2025/04/15
+tags:
+  - attack.initial_access
+  - attack.t1195
+  - attack.t1195.002
+  - attack.persistence
+  - attack.defense_evasion
+  - attack.t1036
+  - gored
+  - excobalt
+  - supply_chain
+logsource:
+  product: windows
+  category: file_event
+detection:
+  # Detection of modified legitimate components
+  selection_modified_components:
+    TargetFilename|endswith:
+      - '.dll'
+      - '.exe'
+      - '.sys'
+    TargetFilename|contains:
+      - 'Scada'
+      - 'Connect'
+      - 'Industrial'
+      - 'Control'
+    Hashes|contains:
+      - 'MD5=fc3b7f47958f6c1c6a93a2f2f970734c'
+      - 'SHA1=8030f2430234426ab3bdc8cdd995be7c4805d7d2'
+      - 'SHA256=ab801eaa9ad11199e1382a124d6024f9551a5a33ca1b9e5cafc0098621abb91f'
+  
+  # Detection of suspicious software update activity
+  selection_suspicious_updates:
+    Image|contains:
+      - 'update'
+      - 'setup'
+      - 'install'
+    CommandLine|contains:
+      - 'pkg.collect.net.in'
+      - 'leo.rpm-bin.link'
+      - 'lib.rest'
+      - 'get.rpm-bin.link'
+  
+  # Suspicious VPN/contractor access
+  selection_trusted_relationship:
+    Image|endswith:
+      - 'vpn.exe'
+      - 'connect.exe'
+    CommandLine|contains:
+      - 'external'
+      - 'contractor'
+      - 'partner'
+    ParentImage: 
+      - 'System'
+      - 'services.exe'
+  
+  # Detection of suspicious DLL loading or hijacking
+  selection_dll_hijacking:
+    EventID: 7 # Image loaded
+    ImageLoaded|endswith:
+      - '.dll'
+    ImageLoaded|contains:
+      - 'Scada'
+      - 'Connection'
+      - 'SCADA'
+    Signed: 'false'
+  
+  condition: 1 of selection_*
+falsepositives:
+  - Legitimate software updates
+  - Custom DLL development for SCADA systems
+  - Legitimate contractor access via VPN
+level: high
