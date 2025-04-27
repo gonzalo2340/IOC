@@ -1,0 +1,6 @@
+indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
+BB_WS,environment_variable,GoRed,"Variable de entorno para persistencia de GoRed, Configuración del canal WSS",high,2023-04-15,Análisis PT,"persistence,environment_variable,gored,wss"
+BB_QUIC,environment_variable,GoRed,"Variable de entorno para persistencia de GoRed, Configuración del canal QUIC",high,2023-04-15,Análisis PT,"persistence,environment_variable,gored,quic"
+BB_ICMP,environment_variable,GoRed,"Variable de entorno para persistencia de GoRed, Configuración del canal ICMP",high,2023-04-15,Análisis PT,"persistence,environment_variable,gored,icmp"
+BB_DNS,environment_variable,GoRed,"Variable de entorno para persistencia de GoRed, Configuración del canal DNS",high,2023-04-15,Análisis PT,"persistence,environment_variable,gored,dns"
+BB_START_DELAY,environment_variable,GoRed,"Variable de entorno para persistencia de GoRed, Configuración del retraso inicial",high,2023-04-15,Análisis PT,"persistence,environment_variable,gored,startup"
