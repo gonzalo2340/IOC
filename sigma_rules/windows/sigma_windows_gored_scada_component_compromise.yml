@@ -1,1 +1,54 @@
-
+title: GoRed SCADA Component Compromise Detection
+id: a3c78d2e-f59b-4e31-b86d-92f0c3c7a5b1
+status: experimental
+description: Detects compromise of legitimate SCADA components by GoRed malware, which is a supply chain attack technique used by ExCobalt
+references:
+  - Análisis PT
+author: FERNANDEZ GONZALO
+date: 2025/04/15
+tags:
+  - attack.persistence
+  - attack.defense_evasion
+  - attack.t1195
+  - attack.initial_access
+  - attack.t1195.002
+  - gored
+  - excobalt
+  - scada
+  - ics
+logsource:
+  product: windows
+  category: file_event
+detection:
+  selection_modified_components:
+    TargetFilename|endswith:
+      - '\Scada.Connect.Win.ConnectionImpl.dll'
+    Hashes|contains:
+      - 'MD5=fc3b7f47958f6c1c6a93a2f2f970734c'
+      - 'SHA1=8030f2430234426ab3bdc8cdd995be7c4805d7d2'
+      - 'SHA256=ab801eaa9ad11199e1382a124d6024f9551a5a33ca1b9e5cafc0098621abb91f'
+  selection_loaded_component:
+    EventID: 7
+    ImageLoaded|endswith:
+      - '\Scada.Connect.Win.ConnectionImpl.dll'
+    Hashes|contains:
+      - 'MD5=fc3b7f47958f6c1c6a93a2f2f970734c'
+      - 'SHA1=8030f2430234426ab3bdc8cdd995be7c4805d7d2'
+      - 'SHA256=ab801eaa9ad11199e1382a124d6024f9551a5a33ca1b9e5cafc0098621abb91f'
+  selection_suspicious_scada_process:
+    ParentImage|contains:
+      - 'Scada'
+      - 'SCADA'
+      - 'ICS'
+      - 'OPC'
+      - 'HMI'
+    CommandLine|contains:
+      - 'scrond'
+      - 'gsn'
+      - '.rpm-bin.link'
+      - '.setup.mom'
+  condition: 1 of selection_*
+falsepositives:
+  - Legitimate SCADA component updates
+  - Custom SCADA development activities
+level: critical
