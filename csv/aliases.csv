@@ -1,0 +1,4 @@
+indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
+Shedding Zmiy,alias,ExCobalt,"Alias asociado a ExCobalt, Particularmente en contexto de ataques contra Rusia",high,2023-04-15,Análisis PT,"alias,threat_actor,gored,excobalt,russia"
+ExCobalt,alias,Cobalt Gang,"Nombre del grupo de amenazas asociado con GoRed",high,2023-04-15,Análisis PT,"alias,threat_actor,gored,cobalt_gang"
+GoRed,malware_family,ExCobalt,"Nombre del malware principal desarrollado por ExCobalt",high,2023-04-15,Análisis PT,"malware_family,gored,excobalt"
