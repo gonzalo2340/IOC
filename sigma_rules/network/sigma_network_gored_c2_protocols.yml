@@ -1,1 +1,80 @@
-
+title: GoRed C2 Protocol Detection
+id: 1c4d2e6f-8a7b-4d9c-b3e2-9f5a1d8c7b6a
+status: experimental
+description: Detects unusual protocol patterns used by GoRed malware for command and control communications, including ICMP tunneling, QUIC protocol usage, and WebSocket Secure connections
+references:
+  - Análisis PT
+author: FERNANDEZ GONZALO
+date: 2025/04/15
+tags:
+  - attack.command_and_control
+  - attack.t1095
+  - attack.t1071
+  - attack.exfiltration
+  - attack.t1048
+  - gored
+  - excobalt
+logsource:
+  category: firewall
+detection:
+  # ICMP Tunneling detection
+  selection_icmp_tunneling:
+    proto: 'ICMP'
+    dst_ip:
+      - '45.146.7.26'
+      - '193.37.71.75'
+      - '45.146.7.16'
+      - '94.131.113.95'
+      - '45.147.200.165'
+      - '188.127.225.231'
+      - '75.119.130.76'
+      - '135.125.107.221'
+      - '45.87.247.239'
+    payload_size: '>128'
+    frequency: 'high'
+  
+  # QUIC protocol to suspicious destinations
+  selection_quic:
+    dst_port: 443
+    proto: 'UDP'
+    dst_ip:
+      - '45.146.7.26'
+      - '193.37.71.75'
+      - '45.146.7.16'
+      - '94.131.113.95'
+    app_protocol: 'QUIC'
+  
+  # WebSocket Secure connections to suspicious domains
+  selection_wss:
+    dst_port: 443
+    proto: 'TCP'
+    tls_sni|contains:
+      - 'pkg.collect.net.in'
+      - 'leo.rpm-bin.link'
+      - 'lib.rest'
+      - 'rosm.pro'
+      - 'sula.rpm-bin.link'
+    http_method: 'CONNECT'
+    http_user_agent|contains:
+      - 'Mozilla'
+    payload|contains:
+      - 'Upgrade: websocket'
+      - 'Connection: Upgrade'
+  
+  # Suspicious ICMP traffic patterns
+  selection_icmp_pattern:
+    proto: 'ICMP'
+    icmp_type: 
+      - 8 # Echo Request
+      - 0 # Echo Reply
+    dst_ip_cc: 'RU'  # Targeting Russian entities
+    bytes_per_second: '>500'
+    packets_per_second: '>10'
+  
+  condition: 1 of selection_*
+falsepositives:
+  - VPN and remote access solutions using similar protocols
+  - Legitimate WebSocket applications
+  - Network monitoring tools using ICMP
+  - Gaming applications using QUIC
+level: medium
