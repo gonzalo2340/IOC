@@ -1,1 +1,37 @@
-
+title: GoRed DNS Tunneling Detection
+id: 2b7c65af-4d89-4e7d-b5f3-91a348c61f90
+status: experimental
+description: Detects DNS tunneling techniques used by GoRed malware for command and control communication, specifically using Base64/Base32 encoded subdomains
+references:
+  - Análisis PT
+author: FERNANDEZ GONZALO
+date: 2025/04/15
+tags:
+  - attack.command_and_control
+  - attack.t1071.004
+  - attack.exfiltration
+  - attack.t1048.003
+  - gored
+  - excobalt
+  - dns_tunneling
+logsource:
+  category: dns
+detection:
+  selection_dns_tunneling_domain:
+    query|endswith:
+      - '.rosm.pro'
+  selection_long_subdomain:
+    query|re: '(?:[A-Za-z0-9+/]{20,})\..*\.rosm\.pro'
+  selection_encoded_content:
+    query|contains:
+      - 'JCHL'
+      - 'EDJB'
+      - 'RMIOR'
+      - 'CDN3'
+      - 'FEDQ'
+      - 'OGA66'
+  condition: selection_dns_tunneling_domain AND (selection_long_subdomain OR selection_encoded_content)
+falsepositives:
+  - Some legitimate services using long subdomain names for tracking
+  - Legitimate Base64 encoded content in subdomain names
+level: high
