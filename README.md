@@ -28,7 +28,7 @@ Este repositorio centraliza **Indicadores de Compromiso (IOCs)** relevantes para
 │   ├── file_hashes.csv           # Hashes de archivos maliciosos (MD5, SHA1, SHA256, etc.)
 │   ├── network_indicators.csv    # Dominios, direcciones IP y URLs maliciosas
 │   ├── system_artifacts.csv      # Artefactos relevantes en sistemas (rutas de archivos, nombres de procesos, claves de registro, etc.)
-│   ├── persistence_mechanisms.csv# Técnicas de persistencia utilizadas por malware
+│   ├── persistence_mechanisms.csv # Técnicas de persistencia utilizadas por malware
 │   ├── c2_protocols.csv          # Patrones de comunicación de Comando y Control (C2)
 │   ├── commands.csv              # Comandos comúnmente utilizados por software malicioso
 │   ├── vulnerabilities.csv       # Identificadores CVE de vulnerabilidades explotadas
