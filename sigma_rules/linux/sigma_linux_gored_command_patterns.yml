@@ -1,1 +1,49 @@
-
+title: GoRed Persistence Through Environment Variables
+id: f7e12d58-9a3c-4e16-b5d7-8c4f5a72e9f6
+status: experimental
+description: Detects GoRed malware persistence mechanism through specific environment variables used to configure C2 channels
+references:
+  - Análisis PT
+author: FERNANDEZ GONZALO
+date: 2025/04/15
+tags:
+  - attack.persistence
+  - attack.defense_evasion
+  - attack.t1574
+  - gored
+  - excobalt
+  - linux
+logsource:
+  product: linux
+  service: shell
+detection:
+  selection_env_vars:
+    CommandLine|contains:
+      - 'BB_WS='
+      - 'BB_QUIC='
+      - 'BB_ICMP='
+      - 'BB_DNS='
+      - 'BB_START_DELAY='
+  selection_profile_modifications:
+    CommandLine|contains|all:
+      - 'export '
+      - 'BB_'
+    CommandLine|contains:
+      - '.bashrc'
+      - '.profile'
+      - '.bash_profile'
+      - '/etc/profile'
+      - '/etc/environment'
+  selection_persistence_install:
+    CommandLine|contains|all:
+      - 'install'
+      - '.service'
+    CommandLine|contains:
+      - 'BB_'
+      - 'scrond'
+      - 'gsn'
+  condition: 1 of selection_*
+falsepositives:
+  - Custom applications using similar environment variable names
+  - Administrative scripts with similar naming
+level: high
