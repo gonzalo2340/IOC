@@ -1,1 +1,93 @@
-
+title: ExCobalt Targeting of Russian Critical Sectors
+id: 7d9c8b5a-3e2f-6a1d-4b7c-9e5f2a3d1c6b
+status: experimental
+description: Detects potential targeting of Russian critical infrastructure sectors by ExCobalt/GoRed malware based on organizational context and attack patterns
+references:
+  - Análisis PT
+author: FERNANDEZ GONZALO
+date: 2025/04/15
+tags:
+  - attack.reconnaissance
+  - attack.t1590
+  - attack.initial_access
+  - attack.t1190
+  - gored
+  - excobalt
+  - targeted
+logsource:
+  category: webserver
+detection:
+  # Targeting of industry-specific web applications
+  selection_industry_targeting:
+    c-uri|contains:
+      - '/scada/'
+      - '/ics/'
+      - '/industrial/'
+      - '/energy/'
+      - '/mining/'
+      - '/metal/'
+      - '/telecom/'
+      - '/government/'
+    c-ip:
+      - '45.146.7.26'
+      - '193.37.71.75'
+      - '45.146.7.16'
+      - '94.131.113.95'
+  
+  # Suspicious scanning of industry-specific ports
+  selection_port_scanning:
+    dst_port:
+      - 102    # S7comm (Siemens)
+      - 502    # Modbus
+      - 20000  # DNP3
+      - 44818  # EtherNet/IP
+      - 1911   # Foxboro/Invensys
+      - 2404   # IEC 60870-5-104
+      - 9600   # OMRON FINS
+    src_ip:
+      - '45.146.7.26'
+      - '193.37.71.75'
+      - '45.146.7.16'
+  
+  # Targeting of known Russian organizations in critical sectors
+  selection_organization_targeting:
+    url|contains:
+      - '.ru/'
+      - '.su/'
+      - 'russian'
+      - 'russia'
+    url|contains:
+      - 'metallurg'
+      - 'mining'
+      - 'energy'
+      - 'telecom'
+      - 'government'
+      - 'software'
+      - 'it-'
+    user_agent|contains:
+      - 'Mozilla/'
+    http_method:
+      - 'POST'
+      - 'PUT'
+  
+  # Exploitation attempts against sector-specific applications
+  selection_exploitation:
+    c-uri|contains:
+      - 'wp-login'
+      - 'admin'
+      - 'login'
+      - 'user'
+    http_method: 'POST'
+    c-uri|contains:
+      - '.ru'
+      - '.su'
+    status: 
+      - 200
+      - 302
+  
+  condition: 1 of selection_*
+falsepositives:
+  - Legitimate vulnerability scans
+  - Security research activities
+  - Normal business operations with Russian partners
+level: medium
