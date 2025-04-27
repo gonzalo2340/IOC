@@ -1,0 +1,11 @@
+indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
+Metalurgia,sector,ExCobalt,"Sector crítico objetivo de ExCobalt, Ubicado en Rusia",high,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,primary"
+Telecomunicaciones,sector,ExCobalt,"Sector crítico objetivo de ExCobalt, Ubicado en Rusia",high,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,primary"
+Minería,sector,ExCobalt,"Sector crítico objetivo de ExCobalt, Ubicado en Rusia",high,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,primary"
+Tecnología de la Información,sector,ExCobalt,"Sector crítico objetivo de ExCobalt, Ubicado en Rusia",high,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,primary"
+Gobierno,sector,ExCobalt,"Sector crítico objetivo de ExCobalt, Ubicado en Rusia",high,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,primary"
+Desarrollo de Software,sector,ExCobalt,"Sector crítico objetivo de ExCobalt, Ubicado en Rusia",high,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,primary"
+Energía,sector,ExCobalt,"Sector crítico objetivo de ExCobalt, Ubicado en Rusia",high,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,primary"
+Educación,sector,ExCobalt,"Sector objetivo secundario, Ubicado en Rusia",medium,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,secondary"
+Finanzas,sector,ExCobalt,"Sector objetivo secundario, Ubicado en Rusia",medium,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,secondary"
+Comercio minorista,sector,ExCobalt,"Sector objetivo secundario, Ubicado en Rusia",medium,2023-04-15,Análisis PT,"target,sector,gored,excobalt,russia,secondary"
