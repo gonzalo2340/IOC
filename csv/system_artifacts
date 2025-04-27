@@ -1,0 +1,13 @@
+indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
+/usr/local/games/w,file_path,GoRed,"Binario droppeado por script install[drop]",high,2023-04-15,Análisis PT,"artifact,file_path,gored,linux"
+/dev/shm/.gs-0/gsn,file_path,GoRed,"Archivo asociado al módulo gsocket",high,2023-04-15,Análisis PT,"artifact,file_path,gored,linux,gsocket"
+.log,file_pattern,GoRed,"Posibles logs creados por GoRed en directorio temporal",medium,2023-04-15,Análisis PT,"artifact,file_pattern,gored,logs"
+install[drop],filename,GoRed,"Script dropper que escribe un binario en /usr/local/games/w",high,2023-04-15,Análisis PT,"artifact,filename,gored,dropper,linux"
+[kthr],process_name,GoRed,"Nombre utilizado por la utilidad k para ocultarse, Imita un hilo del kernel",high,2023-04-15,Análisis PT,"process,masquerading,gored,linux"
+[kr],process_name,GoRed,"Nombre utilizado por la utilidad rev (bind shell), Imita un hilo del kernel",high,2023-04-15,Análisis PT,"process,masquerading,gored,linux,bind_shell"
+core,process_name,GoRed,"Asociado al módulo gsocket, Oculto mediante modificación de ps/htop",high,2023-04-15,Análisis PT,"process,gsocket,gored,linux"
+scrond,process_name,GoRed,"Nombre probable del proceso principal de GoRed",high,2023-04-15,Análisis PT,"process,gored,linux,main_process"
+PS_MODIFICATION,behavior,GoRed,"Modifica utilidad ps para ocultar procesos",high,2023-04-15,Análisis PT,"behavior,rootkit,gored,linux"
+NETSTAT_MODIFICATION,behavior,GoRed,"Modifica utilidad netstat para ocultar conexiones",high,2023-04-15,Análisis PT,"behavior,rootkit,gored,linux"
+SS_MODIFICATION,behavior,GoRed,"Modifica utilidad ss para ocultar conexiones",high,2023-04-15,Análisis PT,"behavior,rootkit,gored,linux"
+HTOP_MODIFICATION,behavior,GoRed,"Modifica utilidad htop para ocultar procesos",high,2023-04-15,Análisis PT,"behavior,rootkit,gored,linux"
