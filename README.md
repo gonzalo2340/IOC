@@ -9,8 +9,6 @@ Este repositorio centraliza **Indicadores de Compromiso (IOCs)** relevantes para
 
 ## Estructura del Repositorio
 
-# ESTRUCTURA DEL REPOSITORIO
-
 ## 1. Directorio CSV
 Contiene indicadores de compromiso y datos de inteligencia de amenazas en formato CSV.
 
