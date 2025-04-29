@@ -1,0 +1,30 @@
+indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
+freedynamicdns.org,domain,Grandoreiro,Dominio base para DGA (Algoritmo de Generación de Dominios),High,2020-10-01,ESET Analysis Fragment 14,c2;dga;ddns
+zapto.org,domain,Grandoreiro,Dominio base para DGA (Algoritmo de Generación de Dominios),High,2020-10-01,ESET Analysis Fragment 14,c2;dga;ddns
+rufnag.com,domain,Grandoreiro,Dominio C2 y remitente de correos de phishing,High,2024-03-01,IBM X-Force Fragment 9,c2;phishing
+pjohconstruccionescpaz.com,domain,Grandoreiro,Dominio C2 y servidor de descarga,High,2024-03-01,IBM X-Force Fragment 9,c2;dropper
+dnsfor.me,domain,Grandoreiro,Dominio de comando y control,High,2024-03-01,IBM X-Force Fragment 9,c2
+neat-url.com,domain,Grandoreiro,Dominio de comando y control,High,2024-03-01,IBM X-Force Fragment 9,c2
+vmi*.contaboserver.net,pattern,Grandoreiro,Patrón de subdominios en Contabo usado para redirección y descarga,High,2024-03-01,Forcepoint/IBM X-Force Fragment 3,c2;dropper;redirection
+20.237.166.161,ipv4,Grandoreiro,Servidor C2 (alojado en Azure),High,2024-01-01,ESET Analysis Fragment 14,c2;azure
+20.120.249.43,ipv4,Grandoreiro,Servidor C2 (alojado en Azure),High,2024-01-01,ESET Analysis Fragment 14,c2;azure
+52.161.154.239,ipv4,Grandoreiro,Servidor C2 (alojado en Azure),High,2024-01-01,ESET Analysis Fragment 14,c2;azure
+167.114.138.249,ipv4,Grandoreiro,Servidor C2 (alojado en OVH),High,2024-01-01,ESET Analysis Fragment 14,c2;ovh
+66.70.160.251,ipv4,Grandoreiro,Servidor C2 (alojado en OVH),High,2024-01-01,ESET Analysis Fragment 14,c2;ovh
+167.114.4.175,ipv4,Grandoreiro,Servidor C2 (alojado en OVH),High,2024-01-01,ESET Analysis Fragment 14,c2;ovh
+18.215.238.53,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-01-01,ESET Analysis Fragment 14,c2;aws
+54.219.169.167,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-01-01,ESET Analysis Fragment 14,c2;aws
+3.144.135.247,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-01-01,ESET Analysis Fragment 14,c2;aws
+18.231.181.227,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-03-01,IBM X-Force Fragment 9,c2;aws
+18.231.158.159,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-03-01,IBM X-Force Fragment 9,c2;aws
+15.229.211.175,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-03-01,IBM X-Force Fragment 9,c2;aws
+15.228.245.103,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-03-01,IBM X-Force Fragment 9,c2;aws
+98.81.92.194:30154,ipv4_port,Grandoreiro,Servidor C2 con puerto no estándar,High,2025-03-01,Forcepoint Fragment 12,c2;non_standard_port
+18.212.216.95:42195,ipv4_port,Grandoreiro,Servidor C2 (AWS) con puerto no estándar,High,2025-03-01,Forcepoint Fragment 12,c2;aws;non_standard_port
+/AudioCoreBCPbSecureNexusLink.xml,uri_path,Grandoreiro,Punto final URI de C2 observado en comunicaciones,High,2025-03-01,Forcepoint Fragment 12,c2;endpoint
+ACTION=HELLO,http_parameter,Grandoreiro,Patrón de comunicación C2 similar a LatentBot,Medium,2022-01-01,Fragment 4,c2;latentbot;beacon
+http://ip-api.com/json,url,Grandoreiro,Servicio de geolocalización usado para perfilar a la víctima,High,2024-03-01,IBM X-Force Fragment 9,reconnaissance;geolocation
+https://dns.google/resolve?name=*,url_pattern,Grandoreiro,Servicio DNS sobre HTTPS usado para resolver dominios C2 eludiendo filtros DNS,High,2024-03-01,IBM X-Force Fragment 9,c2;doh;evasion
+Embarcadero URI Client,user_agent,Grandoreiro,Agente de usuario observado en comunicaciones C2,Medium,2025-03-01,Fragment 12,c2;identification
+RealThinClient (RTC),protocol,Grandoreiro,SDK usado para comunicaciones C2 basadas en HTTP/HTTPS,High,2024-01-01,Fragment 14,c2;communication
+cifrado de flujo personalizado,encryption,Grandoreiro,Método de cifrado utilizado para comunicaciones C2,High,2024-01-01,Fragment 14,c2;encryption;obfuscation
