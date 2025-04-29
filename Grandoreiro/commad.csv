@@ -1,0 +1,22 @@
+indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
+Bloquear_Pantalla,command,Grandoreiro,Impide que la víctima vea o interactúe con la pantalla mientras el operador realiza acciones fraudulentas,High,2023-01-01,Fragment 1,T1564;control;screen_lock
+Keylogger,command,Grandoreiro,Captura todas las pulsaciones de teclas de la víctima para robar credenciales y otra información sensible,High,2023-01-01,Fragment 1,T1056.001;credential_theft;keylogging
+Control_Remoto_Mouse,command,Grandoreiro,Permite al operador controlar remotamente el ratón de la víctima para realizar acciones fraudulentas,High,2023-01-01,Fragment 1,T1204;T1059;remote_control
+Control_Remoto_Teclado,command,Grandoreiro,Permite al operador simular entradas de teclado para manipular aplicaciones y sitios web bancarios,High,2023-01-01,Fragment 1,T1204;T1059;remote_control
+Compartir_Pantalla,command,Grandoreiro,Transmite el contenido de la pantalla de la víctima en tiempo real al operador,High,2023-01-01,Fragment 1,T1113;reconnaissance;screen_capture
+Mostrar_PopUps_Falsos,command,Grandoreiro,Presenta formularios de inicio de sesión o avisos falsificados para recolectar credenciales bancarias y códigos 2FA,High,2023-01-01,Fragment 1,T1056.002;credential_theft;fake_prompt
+Grabar_Movimientos_Raton,command,Grandoreiro,Captura movimientos naturales del ratón de la víctima para reproducirlos posteriormente y eludir sistemas antifraude basados en comportamiento,High,2024-01-01,Fragment 10,T1497.001;evasion;behavior_analysis;mouse_recording
+Recolectar_Info_Sistema,command,Grandoreiro,Recopila detalles sobre sistema operativo hardware cuentas de usuario configuración de red y software instalado,High,2023-01-01,Fragment 2,T1082;T1033;T1016;reconnaissance;system_profiling
+Monitorear_Ventana_Activa,command,Grandoreiro,Comprueba continuamente el título de la ventana en primer plano buscando coincidencias con sitios bancarios objetivo,High,2023-01-01,Fragment 1,T1010;reconnaissance;banking_detection
+Capturar_Portapapeles,command,Grandoreiro,Monitorea y extrae datos del portapapeles incluyendo credenciales y direcciones de criptomonedas,High,2023-01-01,Fragment 10,T1115;credential_theft;clipboard_monitoring
+Reemplazar_Direcciones_Crypto,command,Grandoreiro,Sustituye automáticamente direcciones de billeteras de criptomonedas copiadas por direcciones controladas por el atacante,High,2024-01-01,Fragment 10,T1115;crypto_theft;clipboard_hijacking
+Carga_Archivos,command,Grandoreiro,Permite al operador transferir archivos desde el servidor C2 a la máquina víctima,High,2023-01-01,Fragment 8,T1105;lateral_movement;secondary_payload
+Descarga_Archivos,command,Grandoreiro,Permite exfiltrar archivos desde la máquina víctima al servidor C2,High,2023-01-01,Fragment 8,T1041;exfiltration;data_theft
+Ejecutar_Comandos_Shell,command,Grandoreiro,Ejecuta comandos arbitrarios a través del intérprete de línea de comandos de Windows,High,2023-01-01,Fragment 13,T1059;execution;shell_access
+Matar_Procesos,command,Grandoreiro,Termina procesos en ejecución seleccionados potencialmente incluyendo software de seguridad,High,2023-01-01,Fragment 9,T1489;defense_evasion;process_termination
+Forzar_Reinicio_Sistema,command,Grandoreiro,Reinicia la computadora comprometida por comando del operador,High,2023-01-01,Fragment 14,T1529;impact;system_reboot
+Abrir_URLs_Bancarias,command,Grandoreiro,Dirige el navegador a sitios web bancarios predefinidos para iniciar operaciones fraudulentas,High,2023-01-01,Fragment 8,banking_fraud;browser_manipulation
+Ejecutar_JavaScript,command,Grandoreiro,Inyecta y ejecuta código JavaScript en el navegador para manipular elementos web bancarios como botones,High,2023-01-01,Fragment 8,T1059.007;banking_fraud;browser_script_injection
+Recolectar_Correos_Outlook,command,Grandoreiro,Escanea recursivamente las carpetas de Outlook y archivos locales para recopilar direcciones de correo electrónico,High,2023-01-01,Fragment 6,T1114.001;reconnaissance;email_harvesting
+Enviar_Spam_Outlook,command,Grandoreiro,Envía correos electrónicos de phishing utilizando la cuenta de Outlook de la víctima para propagarse,High,2023-01-01,Fragment 6,T1566;propagation;email_spreading
+Eliminar_Mensajes_Enviados,command,Grandoreiro,Borra mensajes de phishing de la bandeja de salida para ocultar la actividad maliciosa,High,2023-01-01,Fragment 9,T1070.004;defense_evasion;evidence_removal
