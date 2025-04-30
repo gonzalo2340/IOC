@@ -1,4 +1,6 @@
 indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
+Grandoreiro,alias,Grandoreiro,Este es el nombre principal utilizado para referirse al troyano bancario en múltiples informes y análisis de inteligencia de amenazas,Alta,2017-01-01,,malware;troyano_bancario;stealer
+Malware stealer brasileño,alias,Grandoreiro,Este alias descriptivo resalta el país de origen del malware (Brasil) y su función principal (robar información),Alta,2024-04-01,,malware;troyano_bancario;stealer;brasil
 Troyano bancario latinoamericano,alias,Grandoreiro,Categorización genérica basada en el origen geográfico (Brasil) y la funcionalidad principal (fraude bancario),High,2017-01-01,Multiple Vendors,classification;latin_america;banking_trojan
 Tetrade,alias,Grandoreiro,Nombre de grupo que agrupa a Grandoreiro con otros troyanos bancarios brasileños relacionados,Medium,2020-01-01,Kaspersky,threat_group;classification;brazilian_malware
 Trojan:Win32/Grandoreiro,alias,Grandoreiro,Nombre de detección genérico utilizado por Microsoft en sus productos de seguridad,High,2020-01-01,Microsoft,detection_name;microsoft;classification
