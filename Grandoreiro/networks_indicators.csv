@@ -45,3 +45,13 @@ assistance@gov.za,email,Grandoreiro,Dirección de correo electrónico que suplan
 fiscaliageneral@cfe.com,email,Grandoreiro,Dirección de correo electrónico que suplanta a CFE utilizada por Hive0148,High,2025-02-01,IBM X-Force Fragment 3,phishing;initial_access;mexico;cfe;spoofing;hive0148
 fiscaliageneral@sat.gob.mx,email,Grandoreiro,Dirección de correo electrónico que suplanta al SAT (México) utilizada por Hive0148,High,2025-02-01,IBM X-Force Fragment 3,phishing;initial_access;mexico;sat;spoofing;hive0148
 fiscaliageneral.afip.gob.ar,email,Grandoreiro,Dirección de correo electrónico que suplanta a AFIP (Argentina),High,2025-02-01,IBM X-Force Fragment 3,phishing;initial_access;argentina;afip;spoofing;hive0148
+flightradar.mymediapc.net,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+simpsonsbartmovies.stufftoread.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+bayerischemotorenwerke.nflfan.org,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+mapfre.homesecuritypc.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+renault.hosthampster.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+marronfiveshows.serveexchange.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+airforce1.mmafan.biz,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+camsobservations.nhlfan.net,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+mercedesbenz.mysecuritycamera.net,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+michaeljacksontribute.mmafan.biz,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
