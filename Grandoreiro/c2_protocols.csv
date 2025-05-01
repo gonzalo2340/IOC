@@ -1,43 +1,14 @@
 indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
-freedynamicdns.org,domain,Grandoreiro,Dominio base para DGA (Algoritmo de Generación de Dominios),High,2020-10-01,ESET Analysis Fragment 14,c2;dga;ddns
-zapto.org,domain,Grandoreiro,Dominio base para DGA (Algoritmo de Generación de Dominios),High,2020-10-01,ESET Analysis Fragment 14,c2;dga;ddns
-rufnag.com,domain,Grandoreiro,Dominio C2 y remitente de correos de phishing,High,2024-03-01,IBM X-Force Fragment 9,c2;phishing
-pjohconstruccionescpaz.com,domain,Grandoreiro,Dominio C2 y servidor de descarga,High,2024-03-01,IBM X-Force Fragment 9,c2;dropper
-dnsfor.me,domain,Grandoreiro,Dominio de comando y control,High,2024-03-01,IBM X-Force Fragment 9,c2
-neat-url.com,domain,Grandoreiro,Dominio de comando y control,High,2024-03-01,IBM X-Force Fragment 9,c2
-vmi*.contaboserver.net,pattern,Grandoreiro,Patrón de subdominios en Contabo usado para redirección y descarga,High,2024-03-01,Forcepoint/IBM X-Force Fragment 3,c2;dropper;redirection
-20.237.166.161,ipv4,Grandoreiro,Servidor C2 (alojado en Azure),High,2024-01-01,ESET Analysis Fragment 14,c2;azure
-20.120.249.43,ipv4,Grandoreiro,Servidor C2 (alojado en Azure),High,2024-01-01,ESET Analysis Fragment 14,c2;azure
-52.161.154.239,ipv4,Grandoreiro,Servidor C2 (alojado en Azure),High,2024-01-01,ESET Analysis Fragment 14,c2;azure
-167.114.138.249,ipv4,Grandoreiro,Servidor C2 (alojado en OVH),High,2024-01-01,ESET Analysis Fragment 14,c2;ovh
-66.70.160.251,ipv4,Grandoreiro,Servidor C2 (alojado en OVH),High,2024-01-01,ESET Analysis Fragment 14,c2;ovh
-167.114.4.175,ipv4,Grandoreiro,Servidor C2 (alojado en OVH),High,2024-01-01,ESET Analysis Fragment 14,c2;ovh
-18.215.238.53,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-01-01,ESET Analysis Fragment 14,c2;aws
-54.219.169.167,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-01-01,ESET Analysis Fragment 14,c2;aws
-3.144.135.247,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-01-01,ESET Analysis Fragment 14,c2;aws
-18.231.181.227,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-03-01,IBM X-Force Fragment 9,c2;aws
-18.231.158.159,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-03-01,IBM X-Force Fragment 9,c2;aws
-15.229.211.175,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-03-01,IBM X-Force Fragment 9,c2;aws
-15.228.245.103,ipv4,Grandoreiro,Servidor C2 (alojado en AWS),High,2024-03-01,IBM X-Force Fragment 9,c2;aws
-98.81.92.194:30154,ipv4_port,Grandoreiro,Servidor C2 con puerto no estándar,High,2025-03-01,Forcepoint Fragment 12,c2;non_standard_port
-18.212.216.95:42195,ipv4_port,Grandoreiro,Servidor C2 (AWS) con puerto no estándar,High,2025-03-01,Forcepoint Fragment 12,c2;aws;non_standard_port
-/AudioCoreBCPbSecureNexusLink.xml,uri_path,Grandoreiro,Punto final URI de C2 observado en comunicaciones,High,2025-03-01,Forcepoint Fragment 12,c2;endpoint
-ACTION=HELLO,http_parameter,Grandoreiro,Patrón de comunicación C2 similar a LatentBot,Medium,2022-01-01,Fragment 4,c2;latentbot;beacon
-http://ip-api.com/json,url,Grandoreiro,Servicio de geolocalización usado para perfilar a la víctima,High,2024-03-01,IBM X-Force Fragment 9,reconnaissance;geolocation
-https://dns.google/resolve?name=*,url_pattern,Grandoreiro,Servicio DNS sobre HTTPS usado para resolver dominios C2 eludiendo filtros DNS,High,2024-03-01,IBM X-Force Fragment 9,c2;doh;evasion
-Embarcadero URI Client,user_agent,Grandoreiro,Agente de usuario observado en comunicaciones C2,Medium,2025-03-01,Fragment 12,c2;identification
-RealThinClient (RTC),protocol,Grandoreiro,SDK usado para comunicaciones C2 basadas en HTTP/HTTPS,High,2024-01-01,Fragment 14,c2;communication
-cifrado de flujo personalizado,encryption,Grandoreiro,Método de cifrado utilizado para comunicaciones C2,High,2024-01-01,Fragment 14,c2;encryption;obfuscation
-DNS sobre HTTPS (DoH),protocol,Grandoreiro,Grandoreiro utiliza DoH para resolver sus nombres de dominio C2, enviando consultas DNS cifradas sobre HTTPS al resolutor DoH público de Google para evadir el monitoreo y filtrado tradicional basado en tráfico DNS estándar,Alta,2024-03-01,,c2;doh;dns;evasion;red;T1071.004
-Cálculo de Puerto Personalizado,c2_mechanism,Grandoreiro,Después de obtener la dirección IP del servidor C2 a través de DoH, el malware calcula el puerto TCP específico para la comunicación utilizando un método personalizado que mapea los primeros cuatro dígitos de la dirección IP a través de transformaciones para derivar el número de puerto,Media,2024-03-01,,c2;red;evasion
-time.nist.gov,domain,Grandoreiro,Servidor legítimo de Protocolo de Tiempo de Red (NTP) consultado por Grandoreiro para obtener la hora actual precisa utilizada como semilla para su Algoritmo de Generación de Dominios,Alta,2024-03-01,,red;c2;dga;ntp;servicio_legitimo;T1124
-flightradar.mymediapc.net,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
-simpsonsbartmovies.stufftoread.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
-bayerischemotorenwerke.nflfan.org,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
-mapfre.homesecuritypc.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
-renault.hosthampster.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
-marronfiveshows.serveexchange.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
-airforce1.mmafan.biz,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
-camsobservations.nhlfan.net,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
-mercedesbenz.mysecuritycamera.net,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
-michaeljacksontribute.mmafan.biz,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,Alta,2024-03-01,,c2;red;dominio;grandoreiro;dga
+"DNS sobre HTTPS (DoH)",protocol,Grandoreiro,"Grandoreiro utiliza DoH para resolver sus nombres de dominio C2, enviando consultas DNS cifradas sobre HTTPS al resolutor DoH público de Google para evadir el monitoreo y filtrado tradicional basado en tráfico DNS estándar",Alta,2024-03-01,,c2;doh;dns;evasion;red;T1071.004
+"RealThinClient (RTC)",protocol,Grandoreiro,"SDK usado para comunicaciones C2 basadas en HTTP/HTTPS",High,2024-01-01,"Fragment 14",c2;communication
+"cifrado de flujo personalizado",encryption,Grandoreiro,"Método de cifrado utilizado para comunicaciones C2",High,2024-01-01,"Fragment 14",c2;encryption;obfuscation
+"Cálculo de Puerto Personalizado",c2_mechanism,Grandoreiro,"Después de obtener la dirección IP del servidor C2 a través de DoH, el malware calcula el puerto TCP específico para la comunicación utilizando un método personalizado que mapea los primeros cuatro dígitos de la dirección IP a través de transformaciones para derivar el número de puerto",Media,2024-03-01,,c2;red;evasion
+"Algoritmo de Generación de Dominios (DGA)",c2_mechanism,Grandoreiro,"Emplea DGA para generar dinámicamente los dominios C2. El algoritmo usa la fecha actual como semilla (obtenida de time.nist.gov). Variantes más recientes usan múltiples semillas. Un ejemplo usa el día, una letra para el mes, y el último dígito del año, lo XORea con una clave diaria, y concatena a un prefijo estático",Alta,2023-01-01,"ESET Analysis",c2;dga;evasion;T1568.002
+"Embarcadero URI Client",user_agent,Grandoreiro,"Agente de usuario observado en comunicaciones C2",Medium,2025-03-01,"Fragment 12",c2;identification
+ACTION=HELLO,http_parameter,Grandoreiro,"Patrón de comunicación C2 similar a LatentBot",Medium,2022-01-01,"Fragment 4",c2;latentbot;beacon
+HTTP/HTTPS,protocol,Grandoreiro,"Utiliza protocolos web estándar para la comunicación C2",Alta,2017-01-01,,c2;web;T1071.001
+"Consulta de geolocalización",c2_mechanism,Grandoreiro,"Consulta a ip-api.com/json para obtener geolocalización de la víctima. Esta información se usa para filtrar víctimas y se exfiltra al C2",Alta,2023-01-01,,reconnaissance;geolocation;filtration;T1614
+"Uso de DNS público",c2_mechanism,Grandoreiro,"Uso específico de dns.google para resolución DoH, eludiendo bloqueos DNS tradicionales",Alta,2023-01-01,,c2;dns;evasion
+"Puertos TCP no estándar",c2_mechanism,Grandoreiro,"Utilización de puertos TCP no estándar para comunicaciones C2 (ej: 30154, 42195)",Alta,2025-03-01,"Forcepoint Fragment 12",c2;port;evasion;T1571
+"Uso de plataformas cloud",c2_infrastructure,Grandoreiro,"Infraestructura C2 alojada principalmente en proveedores cloud como AWS, Azure y OVH",Alta,2024-01-01,"ESET Analysis Fragment 14",c2;cloud;aws;azure;ovh
+"Exfiltración sobre canal C2",exfiltration,Grandoreiro,"Los datos robados (credenciales, información del sistema, geolocalización) se envían al servidor C2",Alta,2023-01-01,,c2;exfiltration;T1041
