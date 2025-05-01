@@ -1,57 +1,64 @@
 indicator_value,indicator_type,threat_name,description,confidence,date_added,references,tags
-freedynamicdns.org,domain,Grandoreiro,Dominio base para DGA (No-IP DDNS) utilizado en todas las variantes desde 2020,High,2020-10-01,ESET Analysis Fragment 14,c2;dga;ddns;infrastructure
-zapto.org,domain,Grandoreiro,Dominio base para DGA (No-IP DDNS) utilizado en comunicaciones C2,High,2020-10-01,ESET Analysis Fragment 14,c2;dga;ddns;infrastructure
-rufnag.com,domain,Grandoreiro,Dominio C2 y remitente de correos de phishing en campañas 2024,High,2024-03-01,IBM X-Force Fragment 9,c2;phishing;infrastructure
-pjohconstruccionescpaz.com,domain,Grandoreiro,Dominio C2 y punto de descarga de payloads,High,2024-03-01,IBM X-Force Fragment 9,c2;dropper;infrastructure
-norwayeast.cloudapp.azure.com,domain,Grandoreiro,Dominio en Azure Cloud utilizado para distribución de malware,High,2024-03-01,IBM X-Force Fragment 9,dropper;infrastructure;azure;cloud
-crazydocuments.com,domain,Grandoreiro,Dominio C2 y origen de correos de phishing,High,2024-03-01,IBM X-Force Fragment 9,c2;phishing;infrastructure
-southeastasia.cloudapp.azure.com,domain,Grandoreiro,Dominio en Azure utilizado para alojar payloads maliciosos,High,2024-03-01,IBM X-Force Fragment 9,dropper;infrastructure;azure;cloud
-eastus.cloudapp.azure.com,domain,Grandoreiro,Dominio de Azure usado en la infraestructura de distribución,High,2024-03-01,IBM X-Force Fragment 9,dropper;infrastructure;azure;cloud
-dnsfor.me,domain,Grandoreiro,Dominio de comando y control secundario,High,2024-03-01,IBM X-Force Fragment 9,c2;infrastructure
-neat-url.com,domain,Grandoreiro,Dominio de comando y control secundario,High,2024-03-01,IBM X-Force Fragment 9,c2;infrastructure
-vmi[dígitos].contaboserver.net,pattern,Grandoreiro,Patrón de subdominios en Contabo utilizado para redirección y descarga,High,2024-03-01,Forcepoint/IBM X-Force Fragment 3,c2;dropper;redirection;infrastructure;hosting
-20.237.166.161,ipv4,Grandoreiro,Servidor C2 principal alojado en Azure,High,2024-01-01,ESET Analysis Fragment 14,c2;azure;infrastructure
-20.120.249.43,ipv4,Grandoreiro,Servidor C2 secundario alojado en Azure,High,2024-01-01,ESET Analysis Fragment 14,c2;azure;infrastructure
-52.161.154.239,ipv4,Grandoreiro,Servidor C2 alojado en Azure identificado en operaciones 2024,High,2024-01-01,ESET Analysis Fragment 14,c2;azure;infrastructure
-167.114.138.249,ipv4,Grandoreiro,Servidor C2 alojado en OVH utilizado por operadores de Grandoreiro,High,2024-01-01,ESET Analysis Fragment 14,c2;ovh;infrastructure
-66.70.160.251,ipv4,Grandoreiro,Servidor C2 alojado en OVH para comunicaciones post-infección,High,2024-01-01,ESET Analysis Fragment 14,c2;ovh;infrastructure
-167.114.4.175,ipv4,Grandoreiro,Servidor C2 alojado en OVH usado en operaciones 2024,High,2024-01-01,ESET Analysis Fragment 14,c2;ovh;infrastructure
-18.215.238.53,ipv4,Grandoreiro,Servidor C2 alojado en AWS para recepción de datos robados,High,2024-01-01,ESET Analysis Fragment 14,c2;aws;infrastructure;exfiltration
-54.219.169.167,ipv4,Grandoreiro,Servidor C2 alojado en AWS utilizado en el canal principal,High,2024-01-01,ESET Analysis Fragment 14,c2;aws;infrastructure
-3.144.135.247,ipv4,Grandoreiro,Servidor C2 alojado en AWS observado en comunicaciones activas,High,2024-01-01,ESET Analysis Fragment 14,c2;aws;infrastructure
-77.246.96.204,ipv4,Grandoreiro,Servidor C2 alojado en VDSina utilizado por operadores de Grandoreiro,High,2024-01-01,ESET Analysis Fragment 14,c2;vdsina;infrastructure
-185.228.72.38,ipv4,Grandoreiro,Servidor C2 alojado en Master da Web para control remoto interactivo,High,2024-01-01,ESET Analysis Fragment 14,c2;masterdaweb;infrastructure
-62.84.100.225,ipv4,Grandoreiro,Servidor de distribución alojado en VDSina para entrega de payloads,High,2024-01-01,ESET Analysis Fragment 14,distribution;vdsina;infrastructure
-20.151.89.252,ipv4,Grandoreiro,Servidor de distribución alojado en Azure para descarga de payloads,High,2024-01-01,ESET Analysis Fragment 14,distribution;azure;infrastructure
-18.231.181.227,ipv4,Grandoreiro,Servidor C2 alojado en AWS utilizado en campañas 2024,High,2024-03-01,IBM X-Force Fragment 9,c2;aws;infrastructure
-18.231.158.159,ipv4,Grandoreiro,Servidor C2 alojado en AWS para comunicaciones post-compromiso,High,2024-03-01,IBM X-Force Fragment 9,c2;aws;infrastructure
-15.229.211.175,ipv4,Grandoreiro,Servidor C2 alojado en AWS usado en campañas recientes,High,2024-03-01,IBM X-Force Fragment 9,c2;aws;infrastructure
-15.228.245.103,ipv4,Grandoreiro,Servidor C2 alojado en AWS usado en operaciones 2024,High,2024-03-01,IBM X-Force Fragment 9,c2;aws;infrastructure
-98.81.92.194:30154,ipv4_port,Grandoreiro,Servidor C2 con puerto no estándar para evadir detección,High,2025-03-01,Forcepoint Fragment 12,c2;non_standard_port;evasion
-18.212.216.95:42195,ipv4_port,Grandoreiro,Servidor C2 (AWS) con puerto no estándar 42195,High,2025-03-01,Forcepoint Fragment 12,c2;aws;non_standard_port;evasion
-hxxps://pjohconstruccionescpaz.com/?8205-23069071&tokenValue=[...],url,Grandoreiro,URL de descarga de archivo malicioso con token de seguimiento,High,2024-03-01,IBM X-Force Fragment 9,dropper;download;distribution
-hxxps://hilcfacdigitaelpichipt.norwayeast.cloudapp.azure.com/?docs/pdf/[...],url,Grandoreiro,URL de descarga de archivo malicioso alojado en Azure,High,2024-03-01,IBM X-Force Fragment 9,dropper;download;azure;distribution
-hxxps://pjohconstruccionescpaz.com?docs/xml/[...],url,Grandoreiro,URL alternativa de descarga de archivo malicioso,High,2024-03-01,IBM X-Force Fragment 9,dropper;download;distribution
-hxxps://servicerevenueza.southeastasia.cloudapp.azure.com/?PDF-XML-[...],url,Grandoreiro,URL de descarga para campaña dirigida a Sudáfrica,High,2024-03-01,IBM X-Force Fragment 9,dropper;download;distribution;south_africa
-hxxps://www.mediafire.com/file/[...]/Ficha[...].zip/file,url,Grandoreiro,URL de descarga en Mediafire que contiene archivo ZIP malicioso,High,2025-03-01,Forcepoint Fragment 12,dropper;download;mediafire;distribution
-hxxp://18.212.216.95:42195/AudioCoreBCPbSecureNexusLink.xml,url,Grandoreiro,Punto final C2 específico observado en comunicaciones,High,2025-03-01,Forcepoint Fragment 12,c2;endpoint;communication
-http://ip-api.com/json,url,Grandoreiro,Servicio de geolocalización utilizado para identificar la ubicación de la víctima,High,2024-03-01,IBM X-Force/Trustwave/Kaspersky Fragment 9,reconnaissance;geolocation
-https://dns.google/resolve?name=<servidor C2>,url_pattern,Grandoreiro,Servicio DNS sobre HTTPS utilizado para resolver dominios C2,High,2024-03-01,IBM X-Force Fragment 9,c2;doh;evasion;dns_resolution
-root@yhsp<dos dígitos>.[rufnag.com],email,Grandoreiro,Dirección de correo electrónico remitente utilizada en phishing,High,2024-03-01,IBM X-Force Fragment 9,phishing;initial_access;email
-aviso.<cuatro dígitos>@cfe.mx,email,Grandoreiro,Dirección de correo electrónico falsa que suplanta a CFE (México),High,2024-03-01,IBM X-Force Fragment 9,phishing;initial_access;mexico;cfe;spoofing
-gruposat@gob.mx,email,Grandoreiro,Dirección de correo electrónico que suplanta al SAT (México),High,2024-03-01,IBM X-Force Fragment 9,phishing;initial_access;mexico;sat;spoofing
-marcasat@gob.mx,email,Grandoreiro,Dirección de correo electrónico que suplanta al SAT (México) en campañas Hive0148,High,2025-02-01,IBM X-Force Fragment 3,phishing;initial_access;mexico;sat;spoofing;hive0148
-assistance@gov.za,email,Grandoreiro,Dirección de correo electrónico que suplanta al SARS (Sudáfrica),High,2024-03-01,IBM X-Force Fragment 9,phishing;initial_access;south_africa;sars;spoofing
-fiscaliageneral@cfe.com,email,Grandoreiro,Dirección de correo electrónico que suplanta a CFE utilizada por Hive0148,High,2025-02-01,IBM X-Force Fragment 3,phishing;initial_access;mexico;cfe;spoofing;hive0148
-fiscaliageneral@sat.gob.mx,email,Grandoreiro,Dirección de correo electrónico que suplanta al SAT (México) utilizada por Hive0148,High,2025-02-01,IBM X-Force Fragment 3,phishing;initial_access;mexico;sat;spoofing;hive0148
-fiscaliageneral.afip.gob.ar,email,Grandoreiro,Dirección de correo electrónico que suplanta a AFIP (Argentina),High,2025-02-01,IBM X-Force Fragment 3,phishing;initial_access;argentina;afip;spoofing;hive0148
-flightradar.mymediapc.net,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
-simpsonsbartmovies.stufftoread.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
-bayerischemotorenwerke.nflfan.org,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
-mapfre.homesecuritypc.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
-renault.hosthampster.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
-marronfiveshows.serveexchange.com,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
-airforce1.mmafan.biz,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
-camsobservations.nhlfan.net,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
-mercedesbenz.mysecuritycamera.net,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
-michaeljacksontribute.mmafan.biz,domain,Grandoreiro,Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024,High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+freedynamicdns.org,domain,Grandoreiro,"Dominio base para DGA (No-IP DDNS) utilizado en todas las variantes desde 2020",High,2020-10-01,"ESET Analysis Fragment 14",c2;dga;ddns;infrastructure
+zapto.org,domain,Grandoreiro,"Dominio base para DGA (No-IP DDNS) utilizado en comunicaciones C2",High,2020-10-01,"ESET Analysis Fragment 14",c2;dga;ddns;infrastructure
+rufnag.com,domain,Grandoreiro,"Dominio C2 y remitente de correos de phishing en campañas 2024",High,2024-03-01,"IBM X-Force Fragment 9",c2;phishing;infrastructure
+pjohconstruccionescpaz.com,domain,Grandoreiro,"Dominio C2 y punto de descarga de payloads",High,2024-03-01,"IBM X-Force Fragment 9",c2;dropper;infrastructure
+norwayeast.cloudapp.azure.com,domain,Grandoreiro,"Dominio en Azure Cloud utilizado para distribución de malware",High,2024-03-01,"IBM X-Force Fragment 9",dropper;infrastructure;azure;cloud
+crazydocuments.com,domain,Grandoreiro,"Dominio C2 y origen de correos de phishing",High,2024-03-01,"IBM X-Force Fragment 9",c2;phishing;infrastructure
+southeastasia.cloudapp.azure.com,domain,Grandoreiro,"Dominio en Azure utilizado para alojar payloads maliciosos",High,2024-03-01,"IBM X-Force Fragment 9",dropper;infrastructure;azure;cloud
+eastus.cloudapp.azure.com,domain,Grandoreiro,"Dominio de Azure usado en la infraestructura de distribución",High,2024-03-01,"IBM X-Force Fragment 9",dropper;infrastructure;azure;cloud
+dnsfor.me,domain,Grandoreiro,"Dominio de comando y control secundario",High,2024-03-01,"IBM X-Force Fragment 9",c2;infrastructure
+neat-url.com,domain,Grandoreiro,"Dominio de comando y control secundario",High,2024-03-01,"IBM X-Force Fragment 9",c2;infrastructure
+"vmi[dígitos].contaboserver.net",pattern,Grandoreiro,"Patrón de subdominios en Contabo utilizado para redirección y descarga",High,2024-03-01,"Forcepoint/IBM X-Force Fragment 3",c2;dropper;redirection;infrastructure;hosting
+20.237.166.161,ipv4,Grandoreiro,"Servidor C2 principal alojado en Azure",High,2024-01-01,"ESET Analysis Fragment 14",c2;azure;infrastructure
+20.120.249.43,ipv4,Grandoreiro,"Servidor C2 secundario alojado en Azure",High,2024-01-01,"ESET Analysis Fragment 14",c2;azure;infrastructure
+52.161.154.239,ipv4,Grandoreiro,"Servidor C2 alojado en Azure identificado en operaciones 2024",High,2024-01-01,"ESET Analysis Fragment 14",c2;azure;infrastructure
+167.114.138.249,ipv4,Grandoreiro,"Servidor C2 alojado en OVH utilizado por operadores de Grandoreiro",High,2024-01-01,"ESET Analysis Fragment 14",c2;ovh;infrastructure
+66.70.160.251,ipv4,Grandoreiro,"Servidor C2 alojado en OVH para comunicaciones post-infección",High,2024-01-01,"ESET Analysis Fragment 14",c2;ovh;infrastructure
+167.114.4.175,ipv4,Grandoreiro,"Servidor C2 alojado en OVH usado en operaciones 2024",High,2024-01-01,"ESET Analysis Fragment 14",c2;ovh;infrastructure
+18.215.238.53,ipv4,Grandoreiro,"Servidor C2 alojado en AWS para recepción de datos robados",High,2024-01-01,"ESET Analysis Fragment 14",c2;aws;infrastructure;exfiltration
+54.219.169.167,ipv4,Grandoreiro,"Servidor C2 alojado en AWS utilizado en el canal principal",High,2024-01-01,"ESET Analysis Fragment 14",c2;aws;infrastructure
+3.144.135.247,ipv4,Grandoreiro,"Servidor C2 alojado en AWS observado en comunicaciones activas",High,2024-01-01,"ESET Analysis Fragment 14",c2;aws;infrastructure
+77.246.96.204,ipv4,Grandoreiro,"Servidor C2 alojado en VDSina utilizado por operadores de Grandoreiro",High,2024-01-01,"ESET Analysis Fragment 14",c2;vdsina;infrastructure
+185.228.72.38,ipv4,Grandoreiro,"Servidor C2 alojado en Master da Web para control remoto interactivo",High,2024-01-01,"ESET Analysis Fragment 14",c2;masterdaweb;infrastructure
+62.84.100.225,ipv4,Grandoreiro,"Servidor de distribución alojado en VDSina para entrega de payloads",High,2024-01-01,"ESET Analysis Fragment 14",distribution;vdsina;infrastructure
+20.151.89.252,ipv4,Grandoreiro,"Servidor de distribución alojado en Azure para descarga de payloads",High,2024-01-01,"ESET Analysis Fragment 14",distribution;azure;infrastructure
+18.231.181.227,ipv4,Grandoreiro,"Servidor C2 alojado en AWS utilizado en campañas 2024",High,2024-03-01,"IBM X-Force Fragment 9",c2;aws;infrastructure
+18.231.158.159,ipv4,Grandoreiro,"Servidor C2 alojado en AWS para comunicaciones post-compromiso",High,2024-03-01,"IBM X-Force Fragment 9",c2;aws;infrastructure
+15.229.211.175,ipv4,Grandoreiro,"Servidor C2 alojado en AWS usado en campañas recientes",High,2024-03-01,"IBM X-Force Fragment 9",c2;aws;infrastructure
+15.228.245.103,ipv4,Grandoreiro,"Servidor C2 alojado en AWS usado en operaciones 2024",High,2024-03-01,"IBM X-Force Fragment 9",c2;aws;infrastructure
+"98.81.92.194:30154",ipv4_port,Grandoreiro,"Servidor C2 con puerto no estándar para evadir detección",High,2025-03-01,"Forcepoint Fragment 12",c2;non_standard_port;evasion
+"18.212.216.95:42195",ipv4_port,Grandoreiro,"Servidor C2 (AWS) con puerto no estándar 42195",High,2025-03-01,"Forcepoint Fragment 12",c2;aws;non_standard_port;evasion
+"hxxps://pjohconstruccionescpaz.com/?8205-23069071&tokenValue=[...]",url,Grandoreiro,"URL de descarga de archivo malicioso con token de seguimiento",High,2024-03-01,"IBM X-Force Fragment 9",dropper;download;distribution
+"hxxps://hilcfacdigitaelpichipt.norwayeast.cloudapp.azure.com/?docs/pdf/[...]",url,Grandoreiro,"URL de descarga de archivo malicioso alojado en Azure",High,2024-03-01,"IBM X-Force Fragment 9",dropper;download;azure;distribution
+"hxxps://pjohconstruccionescpaz.com?docs/xml/[...]",url,Grandoreiro,"URL alternativa de descarga de archivo malicioso",High,2024-03-01,"IBM X-Force Fragment 9",dropper;download;distribution
+"hxxps://servicerevenueza.southeastasia.cloudapp.azure.com/?PDF-XML-[...]",url,Grandoreiro,"URL de descarga para campaña dirigida a Sudáfrica",High,2024-03-01,"IBM X-Force Fragment 9",dropper;download;distribution;south_africa
+"hxxps://www.mediafire.com/file/[...]/Ficha[...].zip/file",url,Grandoreiro,"URL de descarga en Mediafire que contiene archivo ZIP malicioso",High,2025-03-01,"Forcepoint Fragment 12",dropper;download;mediafire;distribution
+"hxxp://18.212.216.95:42195/AudioCoreBCPbSecureNexusLink.xml",url,Grandoreiro,"Punto final C2 específico observado en comunicaciones",High,2025-03-01,"Forcepoint Fragment 12",c2;endpoint;communication
+"http://ip-api.com/json",url,Grandoreiro,"Servicio de geolocalización utilizado para identificar la ubicación de la víctima",High,2024-03-01,"IBM X-Force/Trustwave/Kaspersky Fragment 9",reconnaissance;geolocation
+"https://dns.google/resolve?name=<servidor C2>",url_pattern,Grandoreiro,"Servicio DNS sobre HTTPS utilizado para resolver dominios C2",High,2024-03-01,"IBM X-Force Fragment 9",c2;doh;evasion;dns_resolution
+"root@yhsp<dos dígitos>.[rufnag.com]",email,Grandoreiro,"Dirección de correo electrónico remitente utilizada en phishing",High,2024-03-01,"IBM X-Force Fragment 9",phishing;initial_access;email
+"aviso.<cuatro dígitos>@cfe.mx",email,Grandoreiro,"Dirección de correo electrónico falsa que suplanta a CFE (México)",High,2024-03-01,"IBM X-Force Fragment 9",phishing;initial_access;mexico;cfe;spoofing
+gruposat@gob.mx,email,Grandoreiro,"Dirección de correo electrónico que suplanta al SAT (México)",High,2024-03-01,"IBM X-Force Fragment 9",phishing;initial_access;mexico;sat;spoofing
+marcasat@gob.mx,email,Grandoreiro,"Dirección de correo electrónico que suplanta al SAT (México) en campañas Hive0148",High,2025-02-01,"IBM X-Force Fragment 3",phishing;initial_access;mexico;sat;spoofing;hive0148
+assistance@gov.za,email,Grandoreiro,"Dirección de correo electrónico que suplanta al SARS (Sudáfrica)",High,2024-03-01,"IBM X-Force Fragment 9",phishing;initial_access;south_africa;sars;spoofing
+fiscaliageneral@cfe.com,email,Grandoreiro,"Dirección de correo electrónico que suplanta a CFE utilizada por Hive0148",High,2025-02-01,"IBM X-Force Fragment 3",phishing;initial_access;mexico;cfe;spoofing;hive0148
+fiscaliageneral@sat.gob.mx,email,Grandoreiro,"Dirección de correo electrónico que suplanta al SAT (México) utilizada por Hive0148",High,2025-02-01,"IBM X-Force Fragment 3",phishing;initial_access;mexico;sat;spoofing;hive0148
+fiscaliageneral.afip.gob.ar,email,Grandoreiro,"Dirección de correo electrónico que suplanta a AFIP (Argentina)",High,2025-02-01,"IBM X-Force Fragment 3",phishing;initial_access;argentina;afip;spoofing;hive0148
+flightradar.mymediapc.net,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+simpsonsbartmovies.stufftoread.com,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+bayerischemotorenwerke.nflfan.org,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+mapfre.homesecuritypc.com,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+renault.hosthampster.com,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+marronfiveshows.serveexchange.com,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+airforce1.mmafan.biz,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+camsobservations.nhlfan.net,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+mercedesbenz.mysecuritycamera.net,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+michaeljacksontribute.mmafan.biz,domain,Grandoreiro,"Dominio de Comando y Control asociado con muestras de Grandoreiro de la campaña de marzo/abril de 2024",High,2024-03-01,,c2;red;dominio;grandoreiro;dga
+"bank-secure-update.xyz",domain,Grandoreiro,"Comunicación con servidores C2 específica de la campaña IB2405",High,2024-03-01,"MalwareBazaar",c2;campaign;IB2405
+"secure-login-update.top",domain,Grandoreiro,"Servidor para exfiltración de la campaña IB2405",High,2024-03-01,"MalwareBazaar",c2;exfiltration;IB2405
+"update-service.online",domain,Grandoreiro,"Hosting de payloads maliciosos de la campaña IB2405",High,2024-03-01,"MalwareBazaar",c2;dropper;IB2405
+"200.89.178.54",ipv4,Grandoreiro,"Servidor C2 para control remoto (Brasil) específico de la campaña IB2405",High,2024-03-01,"MalwareBazaar",c2;IB2405;brazil
+"45.9.148.20",ipv4,Grandoreiro,"Infraestructura C2 principal (España) específica de la campaña IB2405",High,2024-03-01,"MalwareBazaar",c2;IB2405;spain
+"190.15.123.10",ipv4,Grandoreiro,"Nodo C2 secundario (Latinoamérica) específico de la campaña IB2405",High,2024-03-01,"MalwareBazaar",c2;IB2405;latam
+time.nist.gov,domain,Grandoreiro,"Servidor legítimo de Protocolo de Tiempo de Red (NTP) consultado por Grandoreiro para obtener la hora actual precisa utilizada como semilla para su Algoritmo de Generación de Dominios",High,2024-03-01,,red;c2;dga;ntp;servicio_legitimo;T1124
