@@ -13,3 +13,5 @@ Win32/Spy.Grandoreiro.BM,alias,Grandoreiro,Nombre de detección de ESET para el 
 Trojan-Banker.Win32.Grandoreiro,alias,Grandoreiro,Nombre de detección que combina la clasificación de troyano bancario con la plataforma objetivo,High,2020-01-01,Check Point,detection_name;check_point;classification
 NewGrandoreiro,alias,Grandoreiro,Nombre dado a una bifurcación o variante más nueva con DGA rediseñado y código base modificado que apareció antes de la interrupción policial de enero 2024,High,2023-12-01,ESET,variant;fork;evolution
 Grandoreiro Light,alias,Grandoreiro,Versión más ligera y simplificada del troyano dirigida específicamente a un conjunto más pequeño de bancos (~30) en México,High,2024-01-01,Kaspersky,variant;mexico;lightweight
+IB2405,alias,Grandoreiro,Identificador de campaña específica dirigida a Latinoamérica y España,High,2024-03-01,MalwareBazaar,campaign;latin_america;spain;identifier
+MVfc,alias,Grandoreiro,Identificador de campaña específica dirigida a España,High,2025-03-01,Internal Analysis,campaign;spain;identifier
